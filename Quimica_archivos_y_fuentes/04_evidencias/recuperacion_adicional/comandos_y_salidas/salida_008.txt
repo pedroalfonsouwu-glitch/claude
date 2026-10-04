@@ -1,0 +1,63 @@
+Salida
+
+W21b-01 ok citas: 10 largas: [] | inicio ok: True | fin: igura 21.10, p. 963; § 21.7C, p. 970; Problema 21.6, p. 962)
+     «alcóxido (base fuerte)»
+     «Sorprende la pérdida de un ión alcóxido como grupo saliente en el segundo paso de la conversión de un éster a una amida.»
+     «está casi roto»
+     «depende de la naturaleza del grupo saliente»
+     «la reacción es bastante lenta»
+     «altamente exotérmico»
+     «comienza a romperse»
+     «prácticamente no depende de la naturaleza del grupo saliente»
+     «Una base fuerte puede servir como grupo saliente si se desprende en un paso altamente exotérmico»
+     «La eliminación de un ión amiduro»
+W21b-02 ok citas: 7 largas: [] | inicio ok: True | fin: 6, pp. 964 y 966; § 21.7A–B, p. 968; Problema 21.23, p. 972)
+     «Los haluros de ácido y los anhídridos son tan reactivos que se hidrolizan en condiciones neutras.»
+     «algunos nucleófilos son demasiado débiles para atacar a un grupo carbonilo no activado»
+     «pero no ataca a un ácido»
+     «no es lo suficientemente electrofílico para reaccionar con el metanol. La protonación lo transforma en un electrófilo fuerte»
+     «nucleófilo débil (agua)»
+     «(1) Se ha de protonar el grupo carbonilo para activarlo respecto a un ataque por un nucleófilo débil.»
+     «(2) Generalmente los grupos salientes están protonados y, a continuación, se desprenden como moléculas neutras.»
+W21b-03 ok citas: 5 largas: [] | inicio ok: True | fin: jemplos. (Wade, 5.ª ed., § 21.9, p. 975; Sugerencia, p. 976)
+W21b-04 ok citas: 3 largas: [] | inicio ok: True | fin: n y eliminación. (Wade, 5.ª ed., §§ 21.5–21.12, pp. 961–981)
+W21b-05 ok citas: 5 largas: [] | inicio ok: True | fin: grupo que pueda salir.] (Wade, 5.ª ed., § 21.5, pp. 961–962)
+W21b-06 ok citas: 9 largas: [] | inicio ok: True | fin: Wade, 5.ª ed., § 21.7B, pp. 968–969; Problema 21.17, p. 969)
+     «el proceso inverso del equilibrio de esterificación de Fischer»
+     «La adición de exceso de agua desplaza el equilibrio hacia la formación de ácido y alcohol.»
+     «Para desprotonar el ácido se necesita un mol de base.»
+     «Esta transferencia de protones es muy exotérmica y hace que se complete la saponificación.»
+     «catálisis ácida»
+     «promovida por una base»
+     «Sugiera dos razones»
+     «La hidrólisis de los ésteres, denominada saponificación»
+     «hidrólisis básica de las grasas»
+W21b-07 ok citas: 6 largas: [] | inicio ok: True | fin: (Wade, 5.ª ed., § 21.6, pp. 964–967; Problema 21.12, p. 965)
+W21b-08 ok citas: 2 largas: [] | inicio ok: True | fin: .16, p. 969; Mecanismo «Saponificación de un éster», p. 968)
+W21b-09 ok citas: 4 largas: [] | inicio ok: True | fin: te, es la eliminación. (Wade, 5.ª ed., § 21.7C, pp. 970–971)
+W21b-10 corregir citas: 3 largas: [] | inicio ok: True | fin:  «Hidrólisis catalizada por una base de un nitrilo», p. 972)
+W21b-11 ok citas: 0 largas: [] | inicio ok: True | fin: 0, p. 964; Soluciones de los problemas seleccionados, p. A6)
+W21b-12 ok citas: 2 largas: [] | inicio ok: True | fin: d., § 21.7, p. 968; § 21.7C, p. 970; Problema 21.21, p. 971)
+W21b-13 ok citas: 4 largas: [] | inicio ok: True | fin:  21.7 y § 21.7A–B, p. 968; § 21.7C, p. 970; § 21.7D, p. 971)
+     «La hidrólisis de un derivado de ácido varía desde los haluros de acilo, muy reactivos, hasta las amidas, relativamente inertes.»
+     «se hidrolizan en condiciones neutras»
+     «condiciones más fuertes que para la hidrólisis de un éster»
+     «Todos los derivados de los ácidos se hidrolizan para dar lugar a ácidos carboxílicos.»
+W21b-14 ok citas: 5 largas: [] | inicio ok: True | fin: ed., § 21.10, p. 976; § 21.11, pp. 978–979; § 21.12, p. 981)
+     «por lo que no se encuentran en la naturaleza»
+     «por lo que ocasionalmente se encuentran en la naturaleza»
+     «Cuando los caballos comen heno que contiene cantáridas, con frecuencia mueren de gastroenteritis y de insuficiencia renal»
+     «son los derivados de ácido más frecuentes»
+     «es un buen disolvente de una amplia variedad de compuestos»
+W21b-15 ok citas: 3 largas: [] | inicio ok: True | fin: pp. 967–968; § 21.11, pp. 978 y 980; Problema 21.15, p. 968)
+W21b-16 ok citas: 0 largas: [] | inicio ok: True | fin: desde la p. 981. (Wade, 5.ª ed., §§ 21.5–21.12, pp. 961–981)
+W21b-17 corregir citas: 4 largas: [] | inicio ok: True | fin: o quiere decir «impedido»). (Wade, 5.ª ed., § 21.11, p. 980)
+W21b-18 ok citas: 6 largas: [] | inicio ok: True | fin:  no da las respuestas. (Wade, 5.ª ed., § 21.7D, pp. 971–972)
+     «Los nitrilos se hidrolizan a amidas y posteriormente a ácidos carboxílicos»
+     «Si las condiciones son suaves, el nitrilo sólo se hidroliza a amida.»
+     «carbono electrofílico del grupo ciano»
+     «tautómero: enol de la amida»
+     «Hidrólisis catalizada por una base de un nitrilo»
+     «promovido por una base»
+W21b-19 corregir citas: 1 largas: [] | inicio ok: True | fin: jo.] (Wade, 5.ª ed., § 21.8, § 21.8A y § 21.8B, pp. 972–974)
+W21b-20 corregir citas: 0 largas: [] | inicio ok: True | fin: 5, p. 974; Soluciones de los problemas seleccionados, p. A6)

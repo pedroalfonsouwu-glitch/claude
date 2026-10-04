@@ -1,0 +1,4 @@
+Salida
+
+20 guardadas; ['01:ok', '02:ok', '03:ok', '04:ok', '05:ok', '06:ok', '07:ok', '08:ok', '09:ok', '10:corregir', '11:ok', '12:ok', '13:ok', '14:ok', '15:ok', '16:ok', '17:corregir', '18:ok', '19:corregir', '20:corregir']
+faltan: []

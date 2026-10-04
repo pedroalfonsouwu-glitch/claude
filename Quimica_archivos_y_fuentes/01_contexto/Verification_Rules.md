@@ -1,0 +1,15 @@
+# Verification Rules
+
+Hard-won methodological rules governing evidence, verification, and version lineage — enforced after errors were caught
+
+- Numeric verification: nearest-number matching is prohibited — verification requires same species + property + magnitude + unit/valid conversion + context, simultaneously
+- Page-exact evidence: bibliographic entries must be page-exact, never range-expanded
+- Multi-page range expansion was the source of 42 of 84 false positives identified in earlier versions
+- Directness and coverage are independent axes in the master decision table: DIRECT/CORROBORATIVE/INFERENTIAL_FRAMEWORK is separate from FULL_ITEM/PARTIAL_ITEM
+- ZERO-LOSS lineage: all claims must maintain unbroken lineage across versions
+- Rebuilding from scratch (as occurred in V4) rather than rebasing is a prohibited regression
+- The 11 NOT_APPLICABLE items must be preserved across all versions without exception
+- The Morrison/Boyd Study Guide is always supplementary and never elevates to primary source status
+- Figures derive from closed CSVs only — intermediate computation states must never be reported as final figures
+- Autocheck REPORT_LEDGER_NUMERIC_MISMATCH enforces the closed-CSV figures rule
+- Items without bibliographic backing are flagged NO_SUPPORT rather than carried without evidence — e.g. C38, C63, C83-A1b, C87-A1b, C68-A2b

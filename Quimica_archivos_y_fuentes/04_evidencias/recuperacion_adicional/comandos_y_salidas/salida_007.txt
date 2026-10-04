@@ -1,0 +1,42 @@
+Salida
+
+Counter({'ok': 13, 'corregir': 8})
+== W18a-01
+    insert | más fuerte y está polarizado». Más corto |→| más fuerte y está polarizado». [ADICIÓN PEDAGÓGICA: cetonas y aldehídos son las dos familias más simples que tienen C=O (cap. 9). En la cetona, el carbono del C=O está unido a dos carbonos; en el aldehído, a un carbono y a un H.] Más corto
+    insert | ebye, su unidad): acetaldehído, 2,7 D; a |→| ebye, su unidad): acetaldehído (un aldehído, CH₃–CHO), 2,7 D; a
+    insert | : acetaldehído, 2,7 D; acetona, 2,9 D. E |→| hído, CH₃–CHO), 2,7 D; acetona (una cetona, CH₃–CO–CH₃), 2,9 D. E
+    insert | ría de los haluros de alquilo y de los é |→| ría de los haluros de alquilo (compuestos con un halógeno unido a carbono, como el clorometano) y de los é
+    insert | ros de alquilo y de los éteres. Ojo con  |→| l clorometano) y de los éteres (un oxígeno entre dos carbonos, como el dimetil éter). Ojo con 
+== W18a-05
+    insert |  18.3, pp. 776–777; Tabla 18.2, p. 777;  |→|  18.3, pp. 776–777; Tabla 18.2 y Problema 18.1, p. 777; 
+    insert |  776–777; Tabla 18.2, p. 777; Soluciones |→| 18.2 y Problema 18.1, p. 777; Tabla 18.3, p. 778; Soluciones
+== W18a-06
+    insert | , CH₃–O–CH₂CH₃ (un éter), 8 °C; propanal |→| , CH₃–O–CH₂CH₃ (un éter), 8 °C [ADICIÓN PEDAGÓGICA: es el etilmetiléter de este apartado, con su nombre IUPAC]; propanal
+ANCLA FALSA W18a-06 sobre donante y aceptor: «Para que haya puente de hidrógeno hacen falta las dos condiciones entre las dos moléculas, no dentro de cada una.»
+== W18a-08
+    insert | erca del 5 %; con seis o siete, por deba |→| erca del 5 %; con seis o siete en cadena abierta, por deba
+    insert | is o siete, por debajo del 2 %. Coincide |→| na abierta, por debajo del 2 % (la ciclohexanona, que es un anillo de seis carbonos, llega al 15 %). Coincide
+== W18a-09
+    insert |  distintas de la muestra. Otra: por ser  |→|  distintas de la muestra. Otra, en el recuadro «Sugerencia»: las abso
+    delete | distintas de la muestra. Otra: por ser tan débiles, las absor |→| , en el recuadro «Sugerencia»: las absor
+    insert | iles, las absorciones n → π* «no son úti |→| cia»: las absorciones n → π* «son muy débiles y no son úti
+    replace | orciones n → π* «no son útiles» para identificar un compuesto, como sí lo son las π → π*.  |→| on muy débiles y no son útiles, como lo son las absorciones π → π*».
+    insert | sto, como sí lo son las π → π*. (Wade, 5 |→|  lo son las absorciones π → π*». (Wade, 5
+ANCLA FALSA W18a-11 o el salto», junto a la nota del Wade con el etileno y el butadieno: «¿Y de qué depende que el salto π → π* caiga en el UV o en el visible?»
+ALCANCE W18a-11 Está puesta como «catedra» y corresponde «extra»: las reglas numéricas para estimar la λmáx (+10 nm por alquilo, +30 nm 
+== W18a-15
+    replace |  consigo mismo y da un trímero, el paraldehído,  |→|  consigo mismo y da un trímero (un anillo de tres unidades de acetaldehído),
+    insert |  da un trímero, el paraldehído, usado co |→|  tres unidades de acetaldehído), el paraldehído, usado co
+    insert | o como sedante, y un tetrámero, el metal |→| o como sedante, y un tetrámero (de cuatro), el metal
+    insert | s, dos olores. (Wade, 5.ª ed., § 18.4 y  |→| s, dos olores. (Wade, 5.ª ed., Tabla 18.3, p. 778; § 18.4 y 
+ANCLA FALSA W18a-16 mbra el C≡N entre los enlaces que ataca un Grignard: «Si era C=O o C=N (polar) y el carbono no tenía grupo saliente → adición nucleofílica.»
+== W18a-18
+    delete | ve. (Wade, 5.ª ed., § 18.7A, pp. 787–788; |→| ve. (Wade, 5.ª ed., § 18.7A, p. 788; § 1
+    delete |  (Wade, 5.ª ed., § 18.7A, pp. 787–788; § 18. |→| . (Wade, 5.ª ed., § 18.7A, p. 788; § 18.
+== W18a-19
+    replace |  (el valor que cita la nota de arriba) · Wade,  |→|  (el valor que cita la nota del Wade de este apartado) · Wade, 
+    replace |  resolver con las fuentes. El libro no dice de dónde sale  |→|  resolver con las fuentes. El 10,8 no es del autor: lo agregan los traductores en una nota al pie de la Tabla 14.2 («Pe = 10.8°C (1 atm)»), tomado del Handbook of Chemistry and Physics (83.ª edición, 2003).
+    replace | entes. El libro no dice de dónde sale cada valor (en la Tabla 14.2 el 10,8  |→| stry and Physics (83.ª edición, 2003). El 
+    delete | e cada valor (en la Tabla 14.2 el 10,8 lleva  |→| y and Physics (83.ª edición, 2003). El 8
+    replace |  valor (en la Tabla 14.2 el 10,8 lleva una llamada a nota al pie). La difer |→|  and Physics (83.ª edición, 2003). El 8 °C de la p. 778 no trae fuente. La difer
+-rw-r--r-- 1 root root 49249 Oct  4 03:16 /home/claude/work/wade3/ver_W18a.json

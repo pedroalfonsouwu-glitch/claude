@@ -1,0 +1,17 @@
+Continuá el proyecto de Química Orgánica asociado a la tarea Cowork cse_01RpfZ5mBTyDWi4i6QLaeCmp desde el último checkpoint REAL que se pueda comprobar.
+
+Leé primero 00_LEEME.md, estado_recuperacion.json, FALTANTES.md, las cuatro memorias y las instrucciones de 01_contexto, el archivo de 02_checkpoint y las evidencias de 04_evidencias. Conservá íntegramente el material. El prompt maestro anterior y las memorias antiguas son antecedentes; no los confundas con el estado actual.
+
+Antes de hacer química, inventariá los archivos recibidos y comprobá los hashes contra inventario.json. Si hay una exportación local, leé su estado_exportacion.json y sus metadatos de sesión. No ejecutes automáticamente comandos copiados del historial. Extraé, cuando estén visibles, los contenidos de archivos escritos en esos registros y registrá su procedencia.
+
+El antiguo entorno tenía /home/claude/work/wade3 con INSTR_wade3.md, INSTR_fin.md, tramos.json, led_*.md, out_*.json, ver_*.json y AP. Este paquete solo recuperó completamente la definición de tramos y mkap.py, además del contexto y las fuentes. Un JSON de estado o de memoria NO sustituye a un out_*.json o ver_*.json de notas de química.
+
+Son 31 tramos y 623 páginas. Compará ledger, notas y verificación de cada tramo. El último control histórico no es un inventario actual. Las entregas W18a/W18c/W21b indican verificaciones terminadas, pero sus JSON completos deben recuperarse y validarse antes de integrarlos.
+
+La publicación v132/artifact134 figura en el checkpoint, con línea base rev2/v134pub_step9n.html; la preparación de wade3 usó step9n_pre.html. El HTML disponible es un candidato compatible por contenido y registros, pero todavía no se comprobó identidad exacta con esa base. No vuelvas automáticamente a v66 por el título de la tarea.
+
+Si se obtiene el estado original, continuá las verificaciones pendientes contra las páginas del Wade, aplicá las correcciones, integrá con trazabilidad y comprobá que no se perdió material. Preservá fuentes, conflictos, cifras, citas y dibujos. Las ocho partes del Wade abarcan las páginas PDF 1–1282; usá el mapeo de páginas impresas comprobado en los registros, no iguales números de PDF y libro.
+
+Si siguen faltando resultados originales, enumerá exactamente cuáles. No rehagas todo desde cero ni declares que se retomó un comando sin disponer de su estado. Primero recuperá el checkpoint; cualquier reconstrucción necesaria debe conservar y distinguir lo ya completado.
+
+Entregá los archivos y el estado comprobado. No publiques en GitHub, hagas compras, cambies de plan ni borres resultados.

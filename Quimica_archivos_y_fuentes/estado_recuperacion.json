@@ -1,0 +1,610 @@
+{
+  "tarea_cowork": "cse_01RpfZ5mBTyDWi4i6QLaeCmp",
+  "fecha": "2026-10-04",
+  "recuperacion_completa": false,
+  "estado": "CONTEXTO_Y_FUENTES_RECUPERADOS; RESULTADOS_ORIGINALES_PENDIENTES",
+  "equipo": "El encabezado del chat mostró LAPTOP-QBONBQJM conectado. Este chat no tiene acceso directo al disco de Windows.",
+  "bloqueo_comprobado": "La nueva solicitud de exportar archivos fue rechazada por el límite semanal de Cowork.",
+  "reinicio_indicado": "2026-10-07 19:00 America/Argentina/Buenos_Aires",
+  "base_historica": {
+    "version_apunte": "v132",
+    "publicacion": "artifact134",
+    "baseline": "rev2/v134pub_step9n.html",
+    "extraccion_wade3": "step9n_pre.html",
+    "identidad_del_html_disponible_con_el_baseline": "no comprobada byte a byte"
+  },
+  "memorias_recuperadas": [
+    "Preferences",
+    "Verification Rules",
+    "Apunte Maestro",
+    "Quimica organica"
+  ],
+  "definicion_tramos": {
+    "cantidad": 31,
+    "paginas": 623,
+    "archivo": "03_wade3_recuperado/tramos.json",
+    "metodo": "AST literal del comando original; no ejecutado",
+    "bytes_coincidentes_con_listado_historico": 2274
+  },
+  "apunte_disponible": {
+    "archivos": 461,
+    "registros_hasta": "v132",
+    "modificado": false
+  },
+  "pdfs_wade": [
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_01_pag_1-161.pdf",
+      "paginas_pdf": 161,
+      "rango_pdf_completo": [
+        1,
+        161
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_02_pag_162-322.pdf",
+      "paginas_pdf": 161,
+      "rango_pdf_completo": [
+        162,
+        322
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_03_pag_323-482.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        323,
+        482
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_04_pag_483-642.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        483,
+        642
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_05_pag_643-802.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        643,
+        802
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_06_pag_803-962.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        803,
+        962
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_07_pag_963-1122.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        963,
+        1122
+      ]
+    },
+    {
+      "archivo": "06_fuentes/Wade/WADE_5ED_PARTE_08_pag_1123-1282.pdf",
+      "paginas_pdf": 160,
+      "rango_pdf_completo": [
+        1123,
+        1282
+      ]
+    }
+  ],
+  "tramos": [
+    {
+      "id": "W07",
+      "capitulo": 7,
+      "paginas_impresas": [
+        290,
+        313
+      ],
+      "soluciones": "A2",
+      "secciones_apunte": "ap-cap34, ap-cap29, ap-cap18, ap-cap37, ap-cap36",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W08a",
+      "capitulo": 8,
+      "paginas_impresas": [
+        314,
+        332
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap33, ap-cap35, ap-cap31, guia-teoria-u6",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W08b",
+      "capitulo": 8,
+      "paginas_impresas": [
+        333,
+        351
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap33, ap-cap29, ap-cap44, ap-cap35, ap-cap36",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W08c",
+      "capitulo": 8,
+      "paginas_impresas": [
+        352,
+        369
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap35, ap-cap33, ap-cap44, ap-cap29",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W09a",
+      "capitulo": 9,
+      "paginas_impresas": [
+        370,
+        387
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap40, ap-cap7, ap-cap36, ap-cap15, ap-cap38",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W09b",
+      "capitulo": 9,
+      "paginas_impresas": [
+        388,
+        404
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap33, ap-cap35, ap-cap40, ap-cap42",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W11a",
+      "capitulo": 11,
+      "paginas_impresas": [
+        445,
+        467
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap35, ap-cap31, ap-cap38, ap-cap36",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W11b",
+      "capitulo": 11,
+      "paginas_impresas": [
+        468,
+        489
+      ],
+      "soluciones": "A3",
+      "secciones_apunte": "ap-cap34, ap-cap31, ap-cap38, ap-cap44",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W12a",
+      "capitulo": 12,
+      "paginas_impresas": [
+        490,
+        514
+      ],
+      "soluciones": "A3 y A4",
+      "secciones_apunte": "ap-cap12b, ap-cap10, guia-teoria-u2",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W12b",
+      "capitulo": 12,
+      "paginas_impresas": [
+        515,
+        538
+      ],
+      "soluciones": "A3 y A4",
+      "secciones_apunte": "ap-cap12b, ap-cap12, guia-teoria-u2",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W13a",
+      "capitulo": 13,
+      "paginas_impresas": [
+        539,
+        559
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap12b",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W13b",
+      "capitulo": 13,
+      "paginas_impresas": [
+        560,
+        579
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap12b",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W13c",
+      "capitulo": 13,
+      "paginas_impresas": [
+        580,
+        599
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap12b",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W15a",
+      "capitulo": 15,
+      "paginas_impresas": [
+        638,
+        658
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap14, ap-cap37, ap-cap33, ap-cap28, ap-cap7",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W15b",
+      "capitulo": 15,
+      "paginas_impresas": [
+        659,
+        678
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap12b, ej_u2_36-44, ap-cap14, ap-cap31",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W16a",
+      "capitulo": 16,
+      "paginas_impresas": [
+        679,
+        700
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap30, ap-cap14, ap-cap39, ap-cap7",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W16b",
+      "capitulo": 16,
+      "paginas_impresas": [
+        701,
+        721
+      ],
+      "soluciones": "A4",
+      "secciones_apunte": "ap-cap39, ap-cap30, ap-cap37, ap-cap40, ap-cap9",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W17a",
+      "capitulo": 17,
+      "paginas_impresas": [
+        722,
+        739
+      ],
+      "soluciones": "A4 y A5",
+      "secciones_apunte": "ap-cap32, ap-cap40, ap-cap30",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W17b",
+      "capitulo": 17,
+      "paginas_impresas": [
+        740,
+        756
+      ],
+      "soluciones": "A4 y A5",
+      "secciones_apunte": "ap-cap32, ap-cap40, ap-cap14",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W17c",
+      "capitulo": 17,
+      "paginas_impresas": [
+        757,
+        773
+      ],
+      "soluciones": "A4 y A5",
+      "secciones_apunte": "ap-cap32, ap-cap31, ap-cap35, ap-cap37, ap-cap40",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W18a",
+      "capitulo": 18,
+      "paginas_impresas": [
+        774,
+        794
+      ],
+      "soluciones": "A5",
+      "secciones_apunte": "ap-cap38, ap-cap36, ap-cap33, ap-cap41",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": {
+        "notas": 21,
+        "ok": 13,
+        "corregir": 8
+      }
+    },
+    {
+      "id": "W18b",
+      "capitulo": 18,
+      "paginas_impresas": [
+        795,
+        815
+      ],
+      "soluciones": "A5",
+      "secciones_apunte": "ap-cap33, ap-cap38, ap-cap42, guia-teoria-u6",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W18c",
+      "capitulo": 18,
+      "paginas_impresas": [
+        816,
+        835
+      ],
+      "soluciones": "A5",
+      "secciones_apunte": "ap-cap33, ap-cap42, ap-cap43, ap-cap35, ap-cap41",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": {
+        "notas": 19,
+        "ok": 15,
+        "corregir": 4
+      }
+    },
+    {
+      "id": "W21a",
+      "capitulo": 21,
+      "paginas_impresas": [
+        940,
+        960
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap38, ap-cap45, ap-cap44, ap-cap36",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W21b",
+      "capitulo": 21,
+      "paginas_impresas": [
+        961,
+        981
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap31, ap-cap44, ap-cap45, ap-cap38",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": {
+        "notas": 20,
+        "ok": 16,
+        "corregir": 4
+      }
+    },
+    {
+      "id": "W21c",
+      "capitulo": 21,
+      "paginas_impresas": [
+        982,
+        1002
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap31, ap-cap38, ap-cap44, ap-cap46",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W22a",
+      "capitulo": 22,
+      "paginas_impresas": [
+        1003,
+        1020
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap42, ap-cap43, ap-cap15, ap-cap33",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W22b",
+      "capitulo": 22,
+      "paginas_impresas": [
+        1021,
+        1038
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap33, ap-cap31, ap-cap41, ap-cap44",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W22c",
+      "capitulo": 22,
+      "paginas_impresas": [
+        1039,
+        1056
+      ],
+      "soluciones": "A6",
+      "secciones_apunte": "ap-cap15, ap-cap33, ap-cap38, ap-cap35",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "W26",
+      "capitulo": 26,
+      "paginas_impresas": [
+        1182,
+        1201
+      ],
+      "soluciones": "A7",
+      "secciones_apunte": "ap-cap43, ap-cap46, guia-teoria-u7, ap-cap35, ap-cap33",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    },
+    {
+      "id": "WAp",
+      "capitulo": "apéndices",
+      "paginas_impresas": [
+        1203,
+        1220
+      ],
+      "soluciones": "(no tienen)",
+      "secciones_apunte": "ap-cap13, ap-cap15, ap-cap40, ap-cap12b, ap-cap27",
+      "ledger_recuperado": false,
+      "notas_json_recuperadas": false,
+      "verificacion_json_recuperada": false,
+      "handback_historico": null
+    }
+  ],
+  "archivos_wade3_completos_recuperados": [
+    "tramos.json",
+    "mkap.py"
+  ],
+  "archivos_wade3_no_recuperados": [
+    "INSTR_wade3.md",
+    "INSTR_fin.md",
+    "led_*.md",
+    "out_*.json",
+    "ver_*.json",
+    "AP/",
+    "hdr.py",
+    "hdr.json",
+    "hdr.out",
+    "pg/",
+    "raw03/ a raw08/"
+  ],
+  "otras_dependencias_no_recuperadas": [
+    "gen/ completo",
+    "rev2/ completo",
+    "step9n_pre.html original",
+    "CONTINUAR.md original",
+    "PROGRESS.md original",
+    "contexto y registros completos de agentes"
+  ],
+  "siguiente_paso": "Reunir el estado de la tarea desde Windows con Exportar_Quimica.ps1 o exportarlo desde la sesión original cuando permita ejecutar un comando. Después validar resultados y continuar.",
+  "ejecucion_de_quimica_en_segundo_plano": false,
+  "recuperacion_adicional": {
+    "tarea": "cse_01RpfZ5mBTyDWi4i6QLaeCmp",
+    "recuperacion_completa": false,
+    "comandos_con_salidas_recuperados": 16,
+    "cuerpos_de_scripts_recuperados": 4,
+    "fragmentos_de_verificacion_extraidos": 10,
+    "notas_corregidas_completas": [
+      {
+        "id": "W18c-06",
+        "caracteres_del_texto": 2429,
+        "longitud_coincide_con_validacion_historica": true,
+        "archivo": "03_wade3_recuperado/fragmentos_historicos/W18c-06_texto_corregido.txt",
+        "sha256": "04efbcbaf49945318437e930a19d34acd03a8d69dd5dcac85d29283102e4002b"
+      },
+      {
+        "id": "W18c-07",
+        "caracteres_del_texto": 2477,
+        "longitud_coincide_con_validacion_historica": true,
+        "archivo": "03_wade3_recuperado/fragmentos_historicos/W18c-07_texto_corregido.txt",
+        "sha256": "c0fd81545de39c41ffb2d68c4f16133d354c87319b0fe1a4bb3c041db1945db3"
+      }
+    ],
+    "json_originales_out_ver_completos_recuperados": [],
+    "ultimo_comando_exitoso_global_confirmado": false,
+    "sin_reanalisis_quimico": true,
+    "scripts_historicos_ejecutados": false,
+    "bloqueo": "Cowork rechaza la exportación por el límite semanal; los archivos completos de los verificadores no están disponibles para descarga desde los controles accesibles.",
+    "reinicio_indicado_por_cowork": "2026-10-07 19:00 America/Argentina/Buenos_Aires",
+    "estado_plan": {
+      "comprobar_archivos_y_contexto": "completado para lo accesible",
+      "recuperar_todos_los_originales": "parcial; pendiente por bloqueo externo",
+      "guardar_paquetes_y_exportador": "completado"
+    },
+    "requiere_para_continuar": "Exportación de los archivos o registros locales de la sesión original; revisar el ZIP generado por Exportar_Quimica.ps1 cuando se adjunte."
+  }
+}

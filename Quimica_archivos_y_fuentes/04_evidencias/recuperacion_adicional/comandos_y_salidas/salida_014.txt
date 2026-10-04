@@ -1,0 +1,19 @@
+Salida
+
+('W16a', 29, 'no', 679, 700, 'A4', 'ap-cap30, ap-cap14, ap-cap39, ap-cap7')
+('W16b', 26, 'no', 701, 721, 'A4', 'ap-cap39, ap-cap30, ap-cap37, ap-cap40, ap-cap9')
+('W17a', 29, 'no', 722, 739, 'A4 y A5', 'ap-cap32, ap-cap40, ap-cap30')
+('W17b', 21, 'no', 740, 756, 'A4 y A5', 'ap-cap32, ap-cap40, ap-cap14')
+('W17c', 22, 'no', 757, 773, 'A4 y A5', 'ap-cap32, ap-cap31, ap-cap35, ap-cap37, ap-cap40')
+('W18a', 21, 'no', 774, 794, 'A5', 'ap-cap38, ap-cap36, ap-cap33, ap-cap41')
+('W18b', 24, 'no', 795, 815, 'A5', 'ap-cap33, ap-cap38, ap-cap42, guia-teoria-u6')
+('W18c', 19, 'no', 816, 835, 'A5', 'ap-cap33, ap-cap42, ap-cap43, ap-cap35, ap-cap41')
+('W21a', 22, 'no', 940, 960, 'A6', 'ap-cap38, ap-cap45, ap-cap44, ap-cap36')
+('W21b', 20, 'no', 961, 981, 'A6', 'ap-cap31, ap-cap44, ap-cap45, ap-cap38')
+('W21c', 19, 'no', 982, 1002, 'A6', 'ap-cap31, ap-cap38, ap-cap44, ap-cap46')
+('W22a', 18, 'no', 1003, 1020, 'A6', 'ap-cap42, ap-cap43, ap-cap15, ap-cap33')
+('W22b', 12, 'no', 1021, 1038, 'A6', 'ap-cap33, ap-cap31, ap-cap41, ap-cap44')
+('W22c', 11, 'no', 1039, 1056, 'A6', 'ap-cap15, ap-cap33, ap-cap38, ap-cap35')
+('W26', 9, 'no', 1182, 1201, 'A7', 'ap-cap43, ap-cap46, guia-teoria-u7, ap-cap35, ap-cap33')
+('WAp', 24, 'no', 1203, 1220, '(no tienen)', 'ap-cap13, ap-cap15, ap-cap40, ap-cap12b, ap-cap27')
+16 326

@@ -1,0 +1,35 @@
+{
+  "tarea": "cse_01RpfZ5mBTyDWi4i6QLaeCmp",
+  "recuperacion_completa": false,
+  "comandos_con_salidas_recuperados": 16,
+  "cuerpos_de_scripts_recuperados": 4,
+  "fragmentos_de_verificacion_extraidos": 10,
+  "notas_corregidas_completas": [
+    {
+      "id": "W18c-06",
+      "caracteres_del_texto": 2429,
+      "longitud_coincide_con_validacion_historica": true,
+      "archivo": "03_wade3_recuperado/fragmentos_historicos/W18c-06_texto_corregido.txt",
+      "sha256": "04efbcbaf49945318437e930a19d34acd03a8d69dd5dcac85d29283102e4002b"
+    },
+    {
+      "id": "W18c-07",
+      "caracteres_del_texto": 2477,
+      "longitud_coincide_con_validacion_historica": true,
+      "archivo": "03_wade3_recuperado/fragmentos_historicos/W18c-07_texto_corregido.txt",
+      "sha256": "c0fd81545de39c41ffb2d68c4f16133d354c87319b0fe1a4bb3c041db1945db3"
+    }
+  ],
+  "json_originales_out_ver_completos_recuperados": [],
+  "ultimo_comando_exitoso_global_confirmado": false,
+  "sin_reanalisis_quimico": true,
+  "scripts_historicos_ejecutados": false,
+  "bloqueo": "Cowork rechaza la exportación por el límite semanal; los archivos completos de los verificadores no están disponibles para descarga desde los controles accesibles.",
+  "reinicio_indicado_por_cowork": "2026-10-07 19:00 America/Argentina/Buenos_Aires",
+  "estado_plan": {
+    "comprobar_archivos_y_contexto": "completado para lo accesible",
+    "recuperar_todos_los_originales": "parcial; pendiente por bloqueo externo",
+    "guardar_paquetes_y_exportador": "completado"
+  },
+  "requiere_para_continuar": "Exportación de los archivos o registros locales de la sesión original; revisar el ZIP generado por Exportar_Quimica.ps1 cuando se adjunte."
+}

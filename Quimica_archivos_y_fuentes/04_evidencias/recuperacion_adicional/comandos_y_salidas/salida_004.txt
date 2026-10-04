@@ -1,0 +1,46 @@
+Salida
+
+wade3/ver_W07.json
+wade3/ver_W08a.json
+wade3/ver_W08b.json
+wade3/ver_W08c.json
+wade3/ver_W09a.json
+wade3/ver_W09b.json
+wade3/ver_W11a.json
+wade3/ver_W11b.json
+wade3/ver_W12a.json
+wade3/ver_W12b.json
+wade3/ver_W13a.json
+wade3/ver_W13b.json
+wade3/ver_W13c.json
+wade3/ver_W15a.json
+wade3/ver_W15b.json
+ver_W10a.json W10a-37 | El ancla es el segundo de los tres pasos de «La adición nucleofílica, paso a paso»; la nota quedaría antes del paso de la protonación, del que también habla. Ancla mejor (la línea siguiente, única en ap-cap33): «Un ácido del medio (H–B) protona el O⁻: producto con Nu y OH sobre un carbono ahora sp³.»
+
+ver_W10b.json W10b-01 | El ancla es el segundo paso de la lista «La adición nucleofílica, paso a paso»; la línea siguiente es el tercer paso (la protonación). La nota habla de «los mismos dos pasos de esta figura» (ataque y protonación), así que ahí corta la lista antes de que el apunte muestre la protonación. Ancla mejor (única en ap-cap33): «Un ácido del medio (H–B) protona el O⁻: producto con Nu y OH sobre un carbono ahora sp³.» Queda an
+
+ver_W10b.json W10b-07 | El ancla es el último punto de la lista «Cómo se calcula el estado de oxidación, paso a paso»; la línea siguiente («Qué fenómeno muestra…») cierra esa lista. La nota cambia de átomo (azufre) y queda metida entre el último paso y el cierre; además W10b-06 y W10b-05 anclan en las dos líneas siguientes y el bloque queda cortado tres veces. Ancla mejor (única en ap-cap35, mismo párrafo que W10b-05): «una cosa es sacar el
+
+ver_W10b.json W10b-25 | El ancla es un punto de la lista «Cómo leer el SN2, paso a paso»; la línea siguiente es el ejemplo de la figura (HO⁻ + CH₃I). Ahí la nota corta la lectura de la figura antes del ejemplo. Dos líneas más abajo ya hay una nota ⟶ Confirmación que enumera los nucleófilos de la SN2 y nombra «un tiol (HS⁻)»: W10b-25 la continúa. Ancla mejor (única en ap-cap31): «en el estado de transición el carbono queda plano con dos enla
+
+ver_W14b.json W14b-25 | El ancla está en el párrafo que presenta la adición electrofílica; la nota quedaría entre la regla general (E, carbocatión, Nu) y su ejemplo (propeno + HBr) y la figura M-6, y le muestra al alumno una excepción antes del caso base. Va mejor al final de esa subsección, antes de «Adición nucleofílica». Ancla mejor (misma sección ap-cap33): «es una adición electrofílica con una sutileza: el electrófilo no es el ion amon
+
+ver_W14b.json W14b-30 | El ancla está dentro de la transcripción literal de la guía (plegable) y ese párrafo termina en «…se parecería a:», seguido del diagrama de energía y su pie: una nota debajo del párrafo separa la frase de su diagrama. Va mejor debajo de la transcripción. Ancla mejor (misma sección guia-teoria-u6): «Se lee junto con caps. 31–35 (los mecanismos, uno por subunidad); cap. 27 (reactivos, productos, intermediarios).»
+
+ver_W19a.json W19a-15 | El ancla cae en «El efecto de la carga», 58 líneas más abajo de la nota de Morrison y Boyd que esta confirmación cita (anilina, «10⁻⁹ o menos», «1/4000»); ahí interrumpe otro tema. Esa nota está en el plegable que sigue a la línea del ancla de W19a-14. Ancla mejor (única en ap-cap15, 13 palabras): «repartir o acomodar mejor la carga negativa que queda al ceder el protón»
+
+ver_W19a.json W19a-31 | El ancla está dentro del plegable con la transcripción literal de la lectura de la guía («No se resume ni se corrige nada»): la nota quedaría metida entre dos párrafos del texto de la guía. Mejor debajo de la figura de las dos moléculas, fuera del plegable. Ancla mejor (única en guia-teoria-u5, 11 palabras): «Las dos moléculas de la lectura: arriba el recorte de la guía»
+
+ver_W19a.json W19a-32 | El ancla está dentro del plegable con la transcripción literal de la guía, y esa línea del extracto termina a mitad de frase («…un anestésico y, a la» / «vez, un estimulante…»): la nota cortaría el texto de la guía. Mejor al pie de la lectura, fuera del plegable. Ancla mejor (única en guia-teoria-u5, 13 palabras): «Se lee junto con cap. 40 (basicidad de las aminas); cap. 39 (heterociclos)»
+
+ver_W19b.json W19b-10 | El contenido está bien, pero en ese lugar (párrafo de la E2, «En un ciclo, el H y el X…») todavía no se enseñó la regla del producto ni el producto de Hofmann: la nota habla de «dar vuelta la regla del producto», «camino de Saytzeff» y «producto de Hofmann» antes de que aparezcan (están más abajo, en «Qué producto predomina», donde va W19b-09). Ancla mejor, en ese apartado y después de W19b-09: «por la misma razón: c
+
+ver_W19b.json W19b-12 | El contenido está bien, pero la nota dice «Igual que la de Hofmann, da de preferencia el alqueno menos sustituido» y en ese lugar (párrafo de la E2) todavía no aparecieron ni la regla del producto ni la eliminación de Hofmann (W19b-09 va más abajo). Ancla mejor, después de «Qué producto predomina» y de las notas de Hofmann: «Reconocer una eliminación: en la reacción aparece un doble enlace»
+
+ver_W19b.json W19b-16 | El contenido está bien, pero el ancla cae antes de que el apunte presente la imina (aparece dos líneas después, en el pardeamiento) y antes de W19b-15, que es la que define imina y oxima; la nota arranca con «Para qué sirve el C=N después». Ancla mejor, en el párrafo del pardeamiento y después de W19b-15: «un –OH de la propia cadena del azúcar se adiciona al carbono de la imina»
+
+ver_W19b.json W19b-24 | El ancla cae dentro del glosario «Palabras y símbolos de este ejercicio» (entrada «grupo azo · azoico»), que es una lista de definiciones para leer antes de empezar: una nota de este largo la corta, y además habla de «el acoplamiento» antes de W19b-23, que es la que lo explica. Ancla mejor, en el paso 1 del inciso a) y después de W19b-23: «se prepara con anilina y resorcinol»
+
+ver_W20b.json W20b-17 | El tema es el correcto, pero el ancla es una viñeta de la lista «Cómo leer los pizarrones, paso a paso» de la figura F-5: la nota quedaría partiendo la lista (entre «Derecha» y «Abajo»), y en el apunte ninguna nota va pegada a una viñeta. Ancla mejor, en el párrafo de «h) e i) Ácidos carboxílicos y sus derivados», que trata lo mismo: «por un halógeno → halogenuro de ácido R–C(=O)–X; por otro acilo con pérdida de agua
+
+45

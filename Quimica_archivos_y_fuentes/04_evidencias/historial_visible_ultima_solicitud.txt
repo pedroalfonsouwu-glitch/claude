@@ -1,0 +1,1035 @@
+- main:
+  - status:
+    - generic: LAPTOP-QBONBQJM, Conectado
+    - button "LAPTOP-QBONBQJM, Conectado":
+      - generic: 
+    - generic: Acciones del ordenador disponibles — pulsa Tab hasta que el foco entre en la tarjeta, Escape para volver.
+  - link "Quimica organica":
+    - /url: /project/01a067d0-f1e2-70ec-9f4e-7c31e8c32994
+    - generic: Quimica organica
+  - generic: /
+  - button "Química Orgánica v66 restauración, renombrar sesión":
+    - generic: Química Orgánica v66 restauración
+  - button "Más opciones para Química Orgánica v66 restauración":
+    - generic: 
+  - button "Panel de actividad" [pressed]:
+    - generic: 
+  - status: Claude ha terminado la respuesta
+  - status
+  - feed "Mensajes del chat":
+    - paragraph: Usa las teclas de flecha arriba y abajo para moverte entre los mensajes.
+    - button "Cargar mensajes anteriores"
+    - article "Mensaje 3 de 25":
+      - heading [level=2]
+      - button "Ejecutó 17 comandos, tareas actualizadas, ejecutó 4 agentes" [expanded]:
+        - generic: Ejecutó 17 comandos, tareas actualizadas, ejecutó 4 agentes
+        - generic: 
+      - status: Ejecutó 17 comandos, tareas actualizadas, ejecutó 4 agentes
+      - generic: 
+      - 'button "Ran skill: task-observer:task-observer"':
+        - generic: "Ran skill: task-observer:task-observer"
+        - generic: 
+      - generic: 
+      - link "Memoria leída Preferences y Verification Rules":
+        - /url: /customize/memory
+        - generic: Memoria leída
+        - generic: Preferences y Verification Rules
+      - generic: 
+      - button "Loaded tools":
+        - generic: Loaded tools
+        - generic: 
+      - generic: 
+      - button "Check the observation workspace, the staged book files and disk space" [expanded]:
+        - generic: Check the observation workspace, the staged book files and disk space
+        - generic: 
+      - paragraph: bash
+      - code:
+        - generic: ls -d /home/claude/skill-observations /home/claude/work/skill-observations 2>&1 | head; ls /mnt/user-data/uploads/Downloads/ | grep -i -E "wade|morrison|guia" ; cd /home/claude/work && ls wade2 | head -50; df -h /home/claude | tail -1
+      - paragraph: Salida
+      - code: "ls: cannot access '/home/claude/skill-observations': No such file or directory /home/claude/work/skill-observations GUIA EDITADA 2026 JULIO.pdf MORRISON_BOYD_5ED_PARTE_03_pag_433-648.pdf MORRISON_BOYD_5ED_PARTE_04_pag_649-863.pdf MORRISON_BOYD_5ED_PARTE_05_pag_864-1078.pdf MORRISON_BOYD_5ED_PARTE_06_pag_1079-1293.pdf WADE_5ED_PARTE_01_pag_1-161.pdf WADE_5ED_PARTE_03_pag_323-482.pdf WADE_5ED_PARTE_04_pag_483-642.pdf WADE_5ED_PARTE_05_pag_643-802.pdf WADE_5ED_PARTE_06_pag_803-962.pdf WADE_5ED_PARTE_07_pag_963-1122.pdf WADE_5ED_PARTE_08_pag_1123-1282.pdf AP_a.txt AP_b.txt AP_c.txt AP_d.txt AP_e.txt AP_ej1.txt AP_ej2.txt AP_f.txt AP_g.txt AP_h.txt INSTR_verif.md INSTR_wade2.md all.json ans c10 c14 c19 c20 ctx.py ctx.txt edit.py final.json fix fus.json hdr.png lector_in.md led_W10a.md led_W10b.md led_W14a.md led_W14b.md led_W19a.md led_W19b.md led_W19c.md led_W20a.md led_W20b.md log_v132.json look.py merged.json merged_ctx.json notas_all.txt out_W10a.json out_W10b.json out_W14a.json out_W14b.json out_W19a.json out_W19b.json out_W19c.json out_W20a.json out_W20b.json review_place.txt /dev/vda 252G 20G 23G 47% /"
+      - generic: 
+      - button "Scan the observation log and list the image types of each book part":
+        - generic: Scan the observation log and list the image types of each book part
+        - generic: 
+      - generic: 
+      - button "Extract the native page images of book parts 3 to 8":
+        - generic: Extract the native page images of book parts 3 to 8
+        - generic: 
+      - generic: 
+      - button "Read each page header by OCR to verify the page numbering of the six parts":
+        - generic: Read each page header by OCR to verify the page numbering of the six parts
+        - generic: 
+      - generic: 
+      - button "Run the header check in the background":
+        - generic: Run the header check in the background
+        - generic: 
+      - generic: 
+      - 'button "Added task: Inventario: páginas del Wade sin leer y secciones del apunte"':
+        - generic: "Added task: Inventario: páginas del Wade sin leer y secciones del apunte"
+        - generic: 
+      - generic: 
+      - 'button "Added task: Leer las páginas pendientes del Wade (lectores con ledger)"':
+        - generic: "Added task: Leer las páginas pendientes del Wade (lectores con ledger)"
+        - generic: 
+      - generic: 
+      - 'button "Added task: Verificar cada nota contra la imagen de la página"':
+        - generic: "Added task: Verificar cada nota contra la imagen de la página"
+        - generic: 
+      - generic: 
+      - 'button "Added task: Soluciones del final del libro (A1–A7): pasar al apunte"':
+        - generic: "Added task: Soluciones del final del libro (A1–A7): pasar al apunte"
+        - generic: 
+      - generic: 
+      - 'button "Added task: Integrar notas, controlar, publicar y registrar"':
+        - generic: "Added task: Integrar notas, controlar, publicar y registrar"
+        - generic: 
+      - generic: 
+      - button "Started task":
+        - generic: Started task
+        - generic: 
+      - generic: 
+      - button "List the apunte's theory sections with titles and sizes":
+        - generic: List the apunte's theory sections with titles and sizes
+        - generic: 
+      - generic: 
+      - button "Check the header verification results":
+        - generic: Check the header verification results
+        - generic: 
+      - generic: 
+      - button "Wait for the header OCR to finish":
+        - generic: Wait for the header OCR to finish
+        - generic: 
+      - generic: 
+      - button "Read the list of pages whose header did not match the expected number":
+        - generic: Read the list of pages whose header did not match the expected number
+        - generic: 
+      - generic: 
+      - button "Make a contact sheet of the pages around the appendix start and after the solutions":
+        - generic: Make a contact sheet of the pages around the appendix start and after the solutions
+        - generic: 
+      - generic: 
+      - button "Leído app.png" [disabled]:
+        - generic: Leído app.png
+      - generic: 
+      - button "Review the apunte text extractor and the format of the earlier extracts" [expanded]:
+        - generic: Review the apunte text extractor and the format of the earlier extracts
+        - generic: 
+      - paragraph: bash
+      - code:
+        - generic: cd /home/claude/work && sed -n 1,60p gen/extract_text.py | cut -c1-200; head -30 wade2/AP_ej1.txt | cut -c1-200; grep -c "" wade2/AP_*.txt
+      - paragraph: Salida
+      - code: "# -*- coding: utf-8 -*- \"\"\"Extrae el texto visible de secciones/bloques (por id) del HTML final, en orden, para revisión humana o por agentes. Marcas: ⟶NOTA (lectNota), ▶VIDEO (vidBox), 🧭RUTA, ▸/◂ plegables, [SVG …] con sus rótulos, [IMG alt], [PIE] pies de figura.\"\"\" import sys, re from bs4 import BeautifulSoup, NavigableString, Tag BLOCKS = {'p','li','h1','h2','h3','h4','h5','h6','summary','figcaption','div','section','ul','ol','table','tr','td','th', 'figure','details','blockquote','pre','dl','dt','dd','article','aside','header','footer','nav','main','br','hr'} PRE = {'h1':'# ','h2':'## ','h3':'### ','h4':'#### ','h5':'##### ','li':'- ','summary':'▸ ','figcaption':'[PIE] '} def has_block(el): return any(isinstance(d, Tag) and (d.name in BLOCKS or d.name in ('svg','img')) for d in el.descendants) class X: def __init__(s): s.lines=[]; s.buf=[]; s.sec='?'; s.nsvg={} def flush(s, prefix=''): t=re.sub(r'\\s+',' ',''.join(s.buf)).strip(); s.buf=[] if t: s.lines.append(prefix+t) def run(s, el): for ch in el.children: if isinstance(ch, NavigableString): if type(ch).__name__ in ('Comment','Doctype'): continue s.buf.append(str(ch)); continue if not isinstance(ch, Tag): continue n=ch.name if n in ('script','style','noscript','template'): continue if n=='svg': s.flush(); s.nsvg[s.sec]=s.nsvg.get(s.sec,0)+1; t=ch.find('title'); d=ch.get('aria-label') or '' desc=(t.get_text(' ',strip=True) if t else '') or d labs=[x.get_text('',strip=True) for x in ch.find_all('text')]; labs=[l for l in labs if l] s.lines.append(f\"[SVG {s.sec}#{s.nsvg[s.sec]}{': '+desc[:200] if desc else ' SIN DESCRIPCIÓN'}]\" + (f\" rótulos: {' · '.join(labs)[:1200]}\" if labs else '')) continue if n=='img': s.flush(); s.lines.append(f\"[IMG alt={ch.get('alt','')[:200]!r}]\"); continue if n not in BLOCKS: # inline if has_block(ch): s.run(ch) else: s.buf.append(ch.get_text('')) continue s.flush() if n=='section' and ch.get('id'): s.sec=ch.get('id') cls=' '.join(ch.get('class',[])); idp=f\" {{#{ch.get('id')}}}\" if ch.get('id') and n in ('section','div','figure','details','li','h2','h3','h4') else '' mark = '⟶NOTA' if 'lectNota' in cls else '▶VIDEO' if 'vidBox' in cls else '🧭RUTA' if 'rutaBox' in cls else '' if mark: s.lines.append(f'<<{mark}{idp}>>') if n=='details': s.lines.append(f'▸▸ PLEGABLE{idp}') if n=='table': for tr in ch.find_all('tr'): s.lines.append('| '+' | '.join(re.sub(r'\\s+',' ',c.get_text(' ',strip=True)) for c in tr.find_all(['td','th']))+' |') elif not has_block(ch): t=re.sub(r'\\s+',' ',ch.get_text('')).strip() if t: s.lines.append(PRE.get(n,'')+t+(idp if n in('h2','h3','h4','li') else '')) elif idp and n in ('section','div'): pass else: if idp and not mark and n!='details' and n in ('section','figure','div') and ch.get('id'): s.lines.append(f'<{n}{idp}>') if n in PRE: # bloque con contenido mixto s.buf.append(''); s.run(ch); s.flush(PRE.get(n,'')) if n=='details': s.lines.append('◂◂ fin plegable') if mark: s.lines.append(f'<</{mark}>>') ======== guia-u2-e17 ======== #### Ejercicio 17 pág. 11 coincide con la versión 2026 🎓 Cómo lo resolvió la cátedra en el seminario (otra numeración de la guía): F2 · «Ej. 18» · H3 · «Ej. 17–19 (enunciados reales)» [IMG alt='Ejercicio 17: la consigna (guía 2024, pág. 11)'] [PIE] Ejercicio 17: la consigna (guía 2024, pág. 11) ▸▸ PLEGABLE ▸ texto del enunciado completo (para buscar o copiar; ante cualquier duda manda el recorte) 17) Los puntos de ebullición del n-pentano y su isómero (molécula con igual fórmula molecular): el 2,2 dimetil-propano son 36,2 ºC y 9,5 ºC, respectivamente (marcar la opción correcta) a. Un isómero es polar y el otro apolar. b. La forma de la molécula determina el punto de ebullición. c. La forma del n-pentano es esferoidal. d. Cuanto más contacto hay entre moléculas, menores son las fuerzas de London. e. La forma del n-pentano es como una varilla, y sus moléculas se tocan en un solo punto. ◂◂ fin plegable <div {#guia-u2-e17-lasdosmoleculas}> Las dos moléculas Resolución · Las dos moléculas <div {#pe-u2-17-mol}> ### Ej. 17 · las dos moléculas Punto de vista:Resolución [SVG guia-u2-e17#1 SIN DESCRIPCIÓN] rótulos: DATOS: los dos isómeros del enunciado · misma fórmula molecular, distinta forma · 1) n-pentano · C · C · C · C · C · H · H · H · H · H · H ◀ atráspaso 1 / 6siguiente ▶ver todo ◀ atráspaso 2 / 6siguiente ▶ver todo ◀ atráspaso 3 / 6siguiente ▶ver todo ◀ atráspaso 4 / 6siguiente ▶ver todo ◀ atráspaso 5 / 6siguiente ▶ver todo ◀ atráspaso 6 / 6siguiente ▶ver todo 1 Datos: los dos isómeros wade2/AP_a.txt:979 wade2/AP_b.txt:1011 wade2/AP_c.txt:360 wade2/AP_d.txt:137 wade2/AP_e.txt:453 wade2/AP_ej1.txt:1457 wade2/AP_ej2.txt:1397 wade2/AP_f.txt:514 wade2/AP_g.txt:736 wade2/AP_h.txt:213"
+      - generic: 
+      - button "List which guide exercises are solved in each unit and the other exercise sections":
+        - generic: List which guide exercises are solved in each unit and the other exercise sections
+        - generic: 
+      - generic: 
+      - button "Name every page image by its printed book page":
+        - generic: Name every page image by its printed book page
+        - generic: 
+      - generic: 
+      - button "Make a contact sheet of the chapter-opening pages":
+        - generic: Make a contact sheet of the chapter-opening pages
+        - generic: 
+      - generic: 
+      - button "Leído open.png" [disabled]:
+        - generic: Leído open.png
+      - generic: 
+      - button "Read the rest of the extractor to reuse it" [expanded]:
+        - generic: Read the rest of the extractor to reuse it
+        - generic: 
+      - paragraph: bash
+      - code:
+        - generic: cd /home/claude/work && sed -n 60,110p gen/extract_text.py | cut -c1-220
+      - paragraph: Salida
+      - code: "def extract(soup, sid): el=soup.find(id=sid) if el is None: return f'!! no existe {sid}' x=X(); x.sec=sid; x.lines.append(f'======== {sid} ========'); x.run(el); x.flush() return '\\n'.join(x.lines) if __name__=='__main__': soup=BeautifulSoup(open(sys.argv[1]).read(),'lxml') res=[extract(soup,sid) for sid in sys.argv[3:]] open(sys.argv[2],'w').write('\\n\\n'.join(res)); print(sys.argv[2], sum(len(r) for r in res), 'chars', sum(r.count('\\n') for r in res),'lines')"
+      - generic: 
+      - button "Build study-layer text extracts of every theory section and exercise block" [expanded]:
+        - generic: Build study-layer text extracts of every theory section and exercise block
+        - generic: 
+      - paragraph: bash
+      - code:
+        - generic: mkdir -p wade3/AP && cat > wade3/mkap.py <<'EOF'
+        - generic: import sys,re,os
+        - generic: sys.path.insert(0,'gen')
+        - generic: from bs4 import BeautifulSoup
+        - generic: import extract_text as X
+        - generic: s=open('step9n_pre.html',encoding='utf8').read()
+        - generic: soup=BeautifulSoup(s,'lxml')
+        - generic: "# capa de estudio: fuera lo que sólo se ve en Modo auditoría"
+        - generic: n=0
+        - generic: "for el in soup.select('.auditOnly'):"
+        - generic: el.decompose(); n+=1
+        - generic: print('auditOnly quitados',n)
+        - generic: secs=[m for m in re.findall(r'<section class="panel section" id="((?:ap-cap|guia-teoria-)[^"]*)"',s)]
+        - generic: tot=0
+        - generic: "for sid in secs:"
+        - generic: "t=X.extract(soup,sid); open(f'wade3/AP/{sid}.txt','w').write(t); tot+=len(t)"
+        - generic: print(len(secs),'secciones',tot)
+        - generic: "# ejercicios U2 por tramos y las secciones «más ejercicios resueltos» / guía de las otras unidades"
+        - generic: "def ej(a,b): return '\\n\\n'.join(X.extract(soup,f'guia-u2-e{n}') for n in range(a,b+1))"
+        - generic: "for name,a,b in (('ej_u2_01-16',1,16),('ej_u2_17-35',17,35),('ej_u2_36-44',36,44)):"
+        - generic: "t=ej(a,b); open(f'wade3/AP/{name}.txt','w').write(t); print(name,len(t))"
+        - generic: "for sid in ('ej-u4','ej-u5','ej-u6','ej-u7','guia-u4','guia-u5','guia-u6','guia-u7','ej-u3','guia-u3'):"
+        - generic: "t=X.extract(soup,sid); open(f'wade3/AP/{sid}.txt','w').write(t); print(sid,len(t))"
+        - generic: EOF
+        - generic: python3 wade3/mkap.py 2>&1 | tail -16; ls wade3/AP | wc -l; wc -c wade3/AP/ap-cap33.txt wade3/AP/ap-cap43.txt wade3/AP/guia-u6.txt | tail -4
+      - paragraph: Salida
+      - code: auditOnly quitados 1027 56 secciones 1992449 ej_u2_01-16 206369 ej_u2_17-35 341463 ej_u2_36-44 175861 ej-u4 26273 ej-u5 27068 ej-u6 27153 ej-u7 29536 guia-u4 34566 guia-u5 23615 guia-u6 44672 guia-u7 22750 ej-u3 6298 guia-u3 12654 69 32174 wade3/AP/ap-cap33.txt 145872 wade3/AP/ap-cap43.txt 46576 wade3/AP/guia-u6.txt 224622 total
+      - generic: 
+      - button "Creado INSTR_wade3.md" [disabled]:
+        - generic: Creado INSTR_wade3.md
+      - generic: 
+      - button "Define the reading tranches and confirm every page image exists" [expanded]:
+        - generic: Define the reading tranches and confirm every page image exists
+        - generic: 
+      - paragraph: bash
+      - code:
+        - generic: cd /home/claude/work/wade3 && python3 - <<'EOF'
+        - generic: import json
+        - generic: T=[('W07',7,290,313,'A2','ap-cap34, ap-cap29, ap-cap18, ap-cap37, ap-cap36'),
+        - generic: ('W08a',8,314,332,'A3','ap-cap33, ap-cap35, ap-cap31, guia-teoria-u6'),
+        - generic: ('W08b',8,333,351,'A3','ap-cap33, ap-cap29, ap-cap44, ap-cap35, ap-cap36'),
+        - generic: ('W08c',8,352,369,'A3','ap-cap35, ap-cap33, ap-cap44, ap-cap29'),
+        - generic: ('W09a',9,370,387,'A3','ap-cap40, ap-cap7, ap-cap36, ap-cap15, ap-cap38'),
+        - generic: ('W09b',9,388,404,'A3','ap-cap33, ap-cap35, ap-cap40, ap-cap42'),
+        - generic: ('W11a',11,445,467,'A3','ap-cap35, ap-cap31, ap-cap38, ap-cap36'),
+        - generic: ('W11b',11,468,489,'A3','ap-cap34, ap-cap31, ap-cap38, ap-cap44'),
+        - generic: ('W12a',12,490,514,'A3 y A4','ap-cap12b, ap-cap10, guia-teoria-u2'),
+        - generic: ('W12b',12,515,538,'A3 y A4','ap-cap12b, ap-cap12, guia-teoria-u2'),
+        - generic: ('W13a',13,539,559,'A4','ap-cap12b'),
+        - generic: ('W13b',13,560,579,'A4','ap-cap12b'),
+        - generic: ('W13c',13,580,599,'A4','ap-cap12b'),
+        - generic: ('W15a',15,638,658,'A4','ap-cap14, ap-cap37, ap-cap33, ap-cap28, ap-cap7'),
+        - generic: ('W15b',15,659,678,'A4','ap-cap12b, ej_u2_36-44, ap-cap14, ap-cap31'),
+        - generic: ('W16a',16,679,700,'A4','ap-cap30, ap-cap14, ap-cap39, ap-cap7'),
+        - generic: ('W16b',16,701,721,'A4','ap-cap39, ap-cap30, ap-cap37, ap-cap40, ap-cap9'),
+        - generic: ('W17a',17,722,739,'A4 y A5','ap-cap32, ap-cap40, ap-cap30'),
+        - generic: ('W17b',17,740,756,'A4 y A5','ap-cap32, ap-cap40, ap-cap14'),
+        - generic: ('W17c',17,757,773,'A4 y A5','ap-cap32, ap-cap31, ap-cap35, ap-cap37, ap-cap40'),
+        - generic: ('W18a',18,774,794,'A5','ap-cap38, ap-cap36, ap-cap33, ap-cap41'),
+        - generic: ('W18b',18,795,815,'A5','ap-cap33, ap-cap38, ap-cap42, guia-teoria-u6'),
+        - generic: ('W18c',18,816,835,'A5','ap-cap33, ap-cap42, ap-cap43, ap-cap35, ap-cap41'),
+        - generic: ('W21a',21,940,960,'A6','ap-cap38, ap-cap45, ap-cap44, ap-cap36'),
+        - generic: ('W21b',21,961,981,'A6','ap-cap31, ap-cap44, ap-cap45, ap-cap38'),
+        - generic: ('W21c',21,982,1002,'A6','ap-cap31, ap-cap38, ap-cap44, ap-cap46'),
+        - generic: ('W22a',22,1003,1020,'A6','ap-cap42, ap-cap43, ap-cap15, ap-cap33'),
+        - generic: ('W22b',22,1021,1038,'A6','ap-cap33, ap-cap31, ap-cap41, ap-cap44'),
+        - generic: ('W22c',22,1039,1056,'A6','ap-cap15, ap-cap33, ap-cap38, ap-cap35'),
+        - generic: ('W26',26,1182,1201,'A7','ap-cap43, ap-cap46, guia-teoria-u7, ap-cap35, ap-cap33'),
+        - generic: ('WAp','apéndices',1203,1220,'(no tienen)','ap-cap13, ap-cap15, ap-cap40, ap-cap12b, ap-cap27'),
+        - generic: "]"
+        - generic: json.dump(T,open('tramos.json','w'),ensure_ascii=False)
+        - generic: print(len(T), sum(b-a+1 for _,_,a,b,_,_ in T))
+        - generic: import os
+        - generic: "for _,_,a,b,_,_ in T:"
+        - generic: "for p in range(a,b+1): assert os.path.exists(f'pg/p{p:04d}.jpg'),p"
+        - generic: EOF
+      - paragraph: Salida
+      - code: 31 623
+      - generic: 
+      - text: Ejecutado 4 agentes
+      - generic: · 420 pasos
+      - tablist "Agentes paralelos":
+        - tab "Lector Wade W07 pp. 290–313 131 pasos" [selected]:
+          - generic: 
+          - generic: Lector Wade W07 pp. 290–313
+          - generic: 131 pasos
+        - tab "Lector Wade W08a pp. 314–332 93 pasos":
+          - generic: 
+          - generic: Lector Wade W08a pp. 314–332
+          - generic: 93 pasos
+        - tab "Lector Wade W08b pp. 333–351 117 pasos":
+          - generic: 
+          - generic: Lector Wade W08b pp. 333–351
+          - generic: 117 pasos
+        - tab "Lector Wade W08c pp. 352–369 79 pasos":
+          - generic: 
+          - generic: Lector Wade W08c pp. 352–369
+          - generic: 79 pasos
+      - tabpanel "Lector Wade W07 pp. 290–313 131 pasos":
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "List working directory and note file sizes" [disabled]:
+          - generic: List working directory and note file sizes
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Check image sizes and file listing" [disabled]:
+          - generic: Check image sizes and file listing
+        - generic: 
+        - button "Create zoomed thirds of every page in the range" [disabled]:
+          - generic: Create zoomed thirds of every page in the range
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Zoom Fischer projections on p. 293" [disabled]:
+          - generic: Zoom Fischer projections on p. 293
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Zoom thermodynamic values on p. 302" [disabled]:
+          - generic: Zoom thermodynamic values on p. 302
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Zoom chapter 7 answers block" [disabled]:
+          - generic: Zoom chapter 7 answers block
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Zoom drawn structures in problems" [disabled]:
+          - generic: Zoom drawn structures in problems
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Count keyword hits across the apunte files" [disabled]:
+          - generic: Count keyword hits across the apunte files
+        - generic: 
+        - button "Show apunte lines on dichloroethene, dehydration, fumarate" [disabled]:
+          - generic: Show apunte lines on dichloroethene, dehydration, fumarate
+        - generic: 
+        - button "View the cátedra's U6 guide around the dehydration exercise" [disabled]:
+          - generic: View the cátedra's U6 guide around the dehydration exercise
+        - generic: 
+        - button "Show the apunte's lines on free energy and entropy" [disabled]:
+          - generic: Show the apunte's lines on free energy and entropy
+        - generic: 
+        - button "Show apunte lines on hydration and alkene properties" [disabled]:
+          - generic: Show apunte lines on hydration and alkene properties
+        - generic: 
+        - button "View candidate anchor regions in chapters 28, 38, 26, 10" [disabled]:
+          - generic: View candidate anchor regions in chapters 28, 38, 26, 10
+        - generic: 
+        - button "Find existing notes citing Wade chapter 7" [disabled]:
+          - generic: Find existing notes citing Wade chapter 7
+        - generic: 
+        - button "Find Wade notes about allylic and vinylic positions" [disabled]:
+          - generic: Find Wade notes about allylic and vinylic positions
+        - generic: 
+        - button "Show apunte lines about curved arrows" [disabled]:
+          - generic: Show apunte lines about curved arrows
+        - generic: 
+        - button "List headings of related apunte chapters" [disabled]:
+          - generic: List headings of related apunte chapters
+        - generic: 
+        - button "Read candidate anchor paragraphs in chapters 31, 35, 38" [disabled]:
+          - generic: Read candidate anchor paragraphs in chapters 31, 35, 38
+        - generic: 
+        - button "Check existing notes about OH as a leaving group" [disabled]:
+          - generic: Check existing notes about OH as a leaving group
+        - generic: 
+        - button "Read the electrophilic addition section of chapter 33" [disabled]:
+          - generic: Read the electrophilic addition section of chapter 33
+        - generic: 
+        - button "Check existing unsaturation notes and zoom more problem figures" [disabled]:
+          - generic: Check existing unsaturation notes and zoom more problem figures
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Check cracking, diastereomer and exercise mentions; zoom problem 7.36 and 7.38" [disabled]:
+          - generic: Check cracking, diastereomer and exercise mentions; zoom problem 7.36 and 7.38
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Reading a file" [disabled]:
+          - generic: Reading a file
+        - generic: 
+        - button "Read the chapter 9 paragraph about alkane reactivity" [disabled]:
+          - generic: Read the chapter 9 paragraph about alkane reactivity
+        - generic: 
+        - button "Creating a file" [disabled]:
+          - generic: Creating a file
+        - generic: 
+        - button "Verify candidate anchors exist once in their sections" [disabled]:
+          - generic: Verify candidate anchors exist once in their sections
+        - generic: 
+        - button "Read the oxidation-state rule in chapter 35 and the guide subunit title" [disabled]:
+          - generic: Read the oxidation-state rule in chapter 35 and the guide subunit title
+        - generic: 
+        - button "Creating a file" [disabled]:
+          - generic: Creating a file
+        - generic: 
+        - button "Build the findings JSON and validate anchors and quotes" [disabled]:
+          - generic: Build the findings JSON and validate anchors and quotes
+        - generic: 
+        - button "Apply three wording fixes, rebuild JSON and recheck outputs" [disabled]:
+          - generic: Apply three wording fixes, rebuild JSON and recheck outputs
+        - generic: 
+        - button "Run the final validation of the findings file" [disabled]:
+          - generic: Run the final validation of the findings file
+        - button "Subagent handback" [disabled]:
+          - generic: Subagent handback
+      - toolbar "Acciones del mensaje":
+        - button "Copiar":
+          - generic: 
+        - status
+        - button "Leer en voz alta":
+          - generic: 
+        - button "Buena respuesta":
+          - generic: 
+        - button "Mala respuesta":
+          - generic: 
+        - time: ayer
+    - button "Cargar mensajes posteriores"
+    - article "Mensaje 12 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your session limit · resets 6:50pm (America/Argentina/Buenos_Aires)" [level=2]'
+      - paragraph: You've hit your session limit · resets 6:50pm (America/Argentina/Buenos_Aires)
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: You''ve hit your session limit · resets 6:50pm (America/Argentina/Buenos_Aires)"'
+    - article "Mensaje 13 de 25":
+      - 'heading "Escribiste: continua desde el ultimo comando que te quedaste !" [level=2]'
+      - paragraph: continua desde el ultimo comando que te quedaste !
+      - 'button "Mostrar las acciones del mensaje de Escribiste: continua desde el ultimo comando que te quedaste !"'
+      - status
+    - article "Mensaje 14 de 25":
+      - 'heading "Claude ha respondido: Sigo." [level=2]'
+      - button "Ejecutó un comando":
+        - generic: Ejecutó un comando
+        - generic: 
+      - status: Ejecutó un comando
+      - paragraph: "Sigo. Estado real ahora:"
+      - list:
+        - strong: "Lectura: completa."
+        - text: Las 623 páginas pendientes (cap. 7 resto, 8, 9, 11, 12, 13, 15, 16, 17, 18, 21, 22, 26 y apéndices) ya tienen su registro página por página. También están transcriptas las 457 respuestas de las soluciones del final del libro (caps. 1 a 26).
+        - strong: "Notas escritas: 523"
+        - text: ", de 26 de los 31 tramos. Faltan las de cinco tramos (cap. 22, cap. 26 y apéndices), que se cortaron cuando se agotó el cupo; las rehago ahora desde el registro."
+        - strong: "Falta:"
+        - text: verificar cada nota contra la imagen de la página, integrar, y publicar.
+      - paragraph: El cupo de uso se agota cada vez que corren muchos lectores juntos y vuelve cada cinco horas. Voy a programar la sesión para que se reanude sola cuando se renueve, así no tenés que escribir «continuá» cada vez.
+      - button "Ejecutó 4 agentes, archivo creado, tareas programadas gestionadas":
+        - generic: Ejecutó 4 agentes, archivo creado, tareas programadas gestionadas
+        - generic: 
+      - status: Ejecutó 4 agentes, archivo creado, tareas programadas gestionadas
+      - 'link "Tarea programada actualizada: Reanudar cruce Wade (cupo renovado) Una vez — 3 oct a 23:56"':
+        - /url: /scheduled-task/trig_01HrkrT66uBcmYz7nj7jHVJM
+        - text: "Tarea programada actualizada:"
+        - generic: Reanudar cruce Wade (cupo renovado)
+        - generic: Una vez — 3 oct a 23:56
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: Sigo."'
+    - article "Mensaje 15 de 25":
+      - heading [level=2]
+      - button "Ejecutó 8 agentes":
+        - generic: Ejecutó 8 agentes
+        - generic: 
+      - status: Ejecutó 8 agentes
+      - button "Mostrar acciones del mensaje"
+    - article "Mensaje 16 de 25":
+      - heading [level=2]
+      - button "Ejecutó 7 agentes, ejecutó un comando":
+        - generic: Ejecutó 7 agentes, ejecutó un comando
+        - generic: 
+      - status: Ejecutó 7 agentes, ejecutó un comando
+      - button "Mostrar acciones del mensaje"
+    - article "Mensaje 17 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your session limit · resets 11:50pm (America/Argentina/Buenos_Aires)" [level=2]'
+      - paragraph: You've hit your session limit · resets 11:50pm (America/Argentina/Buenos_Aires)
+      - button "Ejecutó 12 agentes, ejecutó 3 comandos, herramientas cargadas":
+        - generic: Ejecutó 12 agentes, ejecutó 3 comandos, herramientas cargadas
+        - generic: 
+      - status: Ejecutó 12 agentes, ejecutó 3 comandos, herramientas cargadas
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: You''ve hit your session limit · resets 11:50pm (America/Argentina/Buenos_Aires)"'
+    - article "Mensaje 18 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAires) You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAire…" [level=2]'
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAires) You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAire…"'
+    - article "Mensaje 19 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)" [level=2]'
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)"'
+    - article "Mensaje 20 de 25":
+      - 'heading "Escribiste: Continuá" [level=2]'
+      - paragraph: Continuá
+      - 'button "Mostrar las acciones del mensaje de Escribiste: Continuá"'
+      - status
+    - article "Mensaje 21 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAires) You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAire…" [level=2]'
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - 'button "Mostrar las acciones del mensaje de Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAires) You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAire…"'
+    - article "Mensaje 22 de 25":
+      - 'heading "Escribiste: Continuá la tarea original de Química Orgánica v66 desde el último punto guardado, siguiendo mis instrucciones anteriores." [level=2]'
+      - paragraph: Continuá la tarea original de Química Orgánica v66 desde el último punto guardado, siguiendo mis instrucciones anteriores. Comprobá primero los resultados parciales y JSON que ya generaste para conservar el avance y retomar lo pendiente. Completá la revisión y restauración, verificá los resultados y dejá todos los archivos finales disponibles para abrir y descargar. Si algo impide continuar, indicá el motivo concreto y preservá un resumen del estado y las rutas de los archivos guardados.
+      - 'button "Mostrar las acciones del mensaje de Escribiste: Continuá la tarea original de Química Orgánica v66 desde el último punto guardado, siguiendo mis instrucciones anteriores."'
+      - status
+    - article "Mensaje 23 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAires) You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/BuenosAire…" [level=2]'
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - toolbar "Acciones del mensaje":
+        - button "Copiar":
+          - generic: 
+        - status
+        - button "Leer en voz alta":
+          - generic: 
+        - button "Buena respuesta":
+          - generic: 
+        - button "Mala respuesta":
+          - generic: 
+        - time: hace 9 horas
+    - article "Mensaje 24 de 25":
+      - 'heading "Escribiste: Necesito exportar el estado REAL de esta tarea cse01RpfZ5mBTyDWi4i6QLaeCmp para continuar en Claude Code." [level=2]'
+      - paragraph: "Necesito exportar el estado REAL de esta tarea cse_01RpfZ5mBTyDWi4i6QLaeCmp para continuar en Claude Code. La laptop está conectada. Hacé sólo un respaldo de recuperación: comprobá qué existe, sin rehacer análisis ni lanzar lectores. Exportá íntegra /home/claude/work/wade3 (INSTR_wade3.md, INSTR_fin.md, tramos.json, todos los led_*.md, out_*.json, ver_*.json, AP, scripts e imágenes), junto con la base exacta del apunte que usó esa tarea y sus dependencias de química (gen, rev2/build2.sh, rev2/tail_u2.sh, los controles de verificación, CONTINUAR.md, PROGRESS.md y checkpoints si existen). Incluí sólo el contexto, instrucciones y memoria relativos a este proyecto. Conservá los archivos originales sin cambios. Dejá un inventario con rutas, tamaños y SHA-256, y un estado que distinga comandos completados de intentos cortados. Generá ZIP descargable del estado; si las fuentes/imágenes son grandes, separalas en archivos numerados y registrá cómo unirlos. No incluyas archivos personales ajenos a química ni credenciales. No hagas commits, pushes, publicaciones, compras ni cambios de plan. No declares que está todo hasta haber comprobado el inventario. Si un límite impide incluso exportar, explicá el bloqueo concreto."
+      - generic: Mensaje contraído
+      - button "Mostrar más":
+        - generic: Mostrar más
+      - toolbar "Acciones del mensaje":
+        - time: hace 15 minutos
+        - button "Reiniciar conversación desde aquí":
+          - generic: 
+        - button "Editar":
+          - generic: 
+        - button "Copiar":
+          - generic: 
+        - status
+      - status
+    - article "Mensaje 25 de 25":
+      - 'heading "Claude ha respondido: You''ve hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)" [level=2]'
+      - paragraph: You've hit your weekly limit · resets Oct 7, 7pm (America/Argentina/Buenos_Aires)
+      - toolbar "Acciones del mensaje":
+        - button "Copiar":
+          - generic: 
+        - status
+        - button "Leer en voz alta":
+          - generic: 
+        - button "Buena respuesta":
+          - generic: 
+        - button "Mala respuesta":
+          - generic: 
+        - time: hace 15 minutos
+  - button:
+    - generic: 
+  - status
+  - status:
+    - text: Se alcanzó el límite de uso · Se restablece el 7 oct a las 19:00 ·
+    - link "límites compartidos con Claude Code":
+      - /url: /settings/claude-code
+    - generic: Espera al reinicio o sigue trabajando ahora con créditos de uso, facturados además de tu plan.
+    - button "Obtener más uso":
+      - generic: Obtener más uso
+  - status:
+    - text: La aprobación automática está activada. Claude funciona de forma autónoma y hace una pausa si algo parece inseguro. Esto incluye el uso de
+    - link "tus conectores":
+      - /url: /customize/connectors/yours
+    - text: y Claude en Chrome, a menos que los desactives.
+    - link "Más información":
+      - /url: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+    - button "Descartar":
+      - generic: 
+  - status
+  - status
+  - generic: Escribe un mensaje…
+  - textbox "Escriba su consulta para Claude":
+    - paragraph
+  - status
+  - button "Añadir archivos, conectores y más":
+    - generic: 
+  - group "Dictar":
+    - button "Dictar":
+      - generic: 
+    - button "Micrófono":
+      - generic: 
+  - button "Auto":
+    - generic: Auto
+  - 'button "Modelo: Opus 5.5 Extra"':
+    - text: Opus 5.5
+    - generic: Extra
+  - radiogroup:
+    - radio:
+      - generic: 
+    - radio
+    - radio [checked]:
+      - generic: 
+    - radio [checked]
+  - text: · MD
+  - button:
+    - generic: 
+  - button:
+    - generic: 
+  - button:
+    - generic: 
+  - generic: "1"
+  - code: "- gen/v127.py (patrón v99): #ap-cap36-eteres antes de «Cómo se clasifica el esqueleto» (qué es, con qué no confundirlo, clasificación simétrico/asimétrico · R–O–R/Ar–O–R/Ar–O–Ar · abierto/cíclico/epóxido, nombres, propiedades con su porqué, CONFLICTO de solubilidad «insoluble» ↔ «parecida» ↔ 8 g/100 g, números, dónde vuelve); figuras 36-E1, E2, E3 (MolO: O rodeado); recuadros #guia-u2-e25-eter y #guia-u2-e23-c-eter; enlace al final de cap. 38 f; registro #reg-v127 con tabla afirmación → fuente."
+  - generic: "2"
+  - code: "- u2_glos: palabras «alcohol» y «eter» (EJ 23 y 25). Cadena: … v126 → step9n_pre37 → v127 → step9n_pre.html. Próximo: v128 (pre38)."
+  - generic: "3"
+  - code: "- LECTURA PROBABLE: los 4 p. eb. de la Tabla 19.1 (texto extraído). Wade cap. 14 sin leer (PDF sin texto)."
+  - generic: "4"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · check_u7 0 ✘ · loss vs v127pub: 0 perdidos, 0 ids. Página 14,82 MB; css sin cambio (piz-9287850299.css). Baseline: rev2/v128pub_step9n.html."
+  - generic: "5"
+  - code: "- PENDIENTE: U2 ej. 36→44."
+  - generic: "6"
+  - generic: "7"
+  - code: "## v128 (3/10) — Fernández Cirelli cap. 4 «Acidez y basicidad» incorporado a U2 ej. 26–35 · Version 122 (artifact129)"
+  - generic: "8"
+  - code: "- Pregunta: «¿no podés leer PDF con ninguna herramienta?». HALLAZGO DE MÉTODO: project_read de un PDF sólo da texto (Wade: vacío; Morrison: OCR). Con el archivo PDF en disco, Read lo muestra como imagen de página. La sesión está enlazada a la PC del alumno (Windows, «laptop-qbonbqjm»): get_device_info → device_request_folder_access → device_stage_files → /mnt/user-data/uploads/… → Read(pages)."
+  - generic: "9"
+  - code: "- Carpetas concedidas: C:\\Users\\USUARIO\\Downloads\\quim org usar (pdf, pdf2, pdf3, pdf4) y …\\org carp (videos). En «quim org usar/pdf» hay dos PDF que NO están en el proyecto: 04_FERNANDEZ_CIRELLI_CAP04_ACIDEZ_BASICIDAD.pdf (12 pág., pp. 97–108; leído completo como imagen) y 05_FERNANDEZ_CIRELLI_CAP06_METODOS_ESPECTROSCOPICOS.pdf (32 pág.; SIN LEER: es para ej. 36–44). Copias locales: work/*.pdf, texto en work/fc_cap4.txt y fc_cap6.txt."
+  - generic: "10"
+  - code: "- Los Wade/Morrison partidos (WADE_5ED_PARTE_0N, MORRISON_BOYD_5ED_PARTE_0N) NO están en esas carpetas: falta saber dónde (otras carpetas de Downloads: «fue claude», «u5», «u6», «unidad 7 teorico», «Nueva carpeta»…)."
+  - generic: "11"
+  - code: "- gen/v128.py (26 parches; modos +, =, rep, src): 33 Kb metilamina confirmado (pKb 3,34 FC p. 102; sale el LECTURA PROBABLE); 30 «la estructura que mantiene la aromaticidad… es más estable» reemplaza mi explicación AP; 31 a estructura del p-nitrofenóxido en FC p. 104; 32 acético 4,76 y ejemplo nitroacético; citas en 26, 27 a, 28, 31 b, 34, 35. Erratas del libro anotadas (100 veces vs 1200; pKb 3,24 vs 3,34)."
+  - generic: "12"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · check_u7 0 ✘ · loss vs v128pub: 0 perdidos, 0 ids. Página 14,83 MB. Baseline: rev2/v129pub_step9n.html. Cadena: … v127 → pre38 → v128 → step9n_pre.html. Próximo: v129 (pre39)."
+  - generic: "13"
+  - code: "- PENDIENTE: (a) volcar FC cap. 4 completo a teoría caps. 13 y 15; (b) leer FC cap. 6 (UV) antes de ej. 36–44; (c) pedir la carpeta de Wade/Morrison para ver como imagen Tabla 19.1 (p. 687), Tabla 26.1 (p. 916), § 35.11 (p. 1199) y Wade caps. 10, 14, 19, 20; (d) U2 ej. 36→44."
+  - generic: "14"
+  - generic: "15"
+  - code: "## v129 (3/10) — U2 ej. 36, 37, 38 y 39 (absorción de luz) rehechos desde las fuentes · Version 123 (artifact130)"
+  - generic: "16"
+  - code: "- Sigue la tanda 36→44 (regla «fuentes primero»). Tras «oka»: se pidieron y se obtuvieron las carpetas `Downloads\\fue claude` y `Downloads\\Nueva carpeta`; los Wade/Morrison partidos NO están ahí (falta que el alumno diga dónde o los copie a `Downloads\\quim org usar\\pdf`)."
+  - generic: "17"
+  - code: "- Fuentes leídas ANTES de dibujar (scratchpad src/fuentes_ej36–44.txt, cap12b.txt, bloqueG.txt, cons36_39.png): cap. 12b completo; Bloque G con Pizarrones V-36/37/38; transcripciones completas video/30 (teórico «Absorción de Luz (Parte 1)») y video/31 (seminario «Absorción de Luz (Parte 2)»), notas de video/71 y video/72; md U2 § 8.1–8.5 y § 12.1–12.7; guía pág. 15–16; Fernández Cirelli cap. 6 pp. 129–138 LEÍDAS COMO IMAGEN (fc_cap6.txt para citar; UV en pp. 134–137; Tabla 3: etileno 190, butadieno 217, benceno 184/204/255, naftaleno 220/276/311, antraceno 253/356, piridina, formaldehído 270); Morrison § 16.5 (mb3.txt) y § 34.16 (mb6.txt); notas de Wade § 15.13 ya en cap. 12b."
+  - generic: "18"
+  - code: "- Módulos nuevos: gen/u2_e3639_build.py (escala de λ 150–800 con marcas y rótulos '<'/'>' al costado; niveles σ/π/n/π*/σ* con estados lleno/vacío/«no hay» y saltos ok/caro/no; salto_pi; curva Abs–λ; cadena_p acostada con «ochos», C sp³ sin p y O con par en p o en híbrido; haz de luz blanca en 6 colores; complementarios con los arcos del pizarrón; anillo_num; lupa_pi; tma; hexatrieno; zigzag; aceno_n con C contados dentro de los anillos; guia_aceno; nube_aceno; muestra; cuenta2 con 1.ª columna ajustable); gen/u2_textos_3639.py (T30/S31/S71/T72 con enlaces a YouTube por minuto); gen/v129.py. gen/u2_lector.py: claves niv, salto, ocho2, nube2, curva2, hib2. gen/u2_glos.py: 13 palabras nuevas (luz, espectro, nivel, trans, cromo, auxo, conj, nube, compl, amax, polieno, batocr, aceno) + EJ 36–39. gen/v110.py: DATOS sólo 14 (37 y 39 pasaron al pizarrón; las figuras publicadas quedan en #reg-v129)."
+  - generic: "19"
+  - code: "- Pasos: 36 4→8 · 37 5→8 · 38 5→7 · 39 4→7. Ninguna respuesta cambia. Se sacaron del 38 los «7, 9 y 11 C=C» inventados (ahora sólo el orden). CONFLICTO nuevo visible (36): doble aislado 190 nm (FC) vs 171 nm (Wade). CORRECCIÓN del 39 (14 y 18 e⁻ π, no 18 y 24) sigue visible, ahora con los C compartidos marcados."
+  - generic: "20"
+  - code: "- Externo (marcado): benceno 255 / fenol 270 nm (R. Glaser, Univ. Missouri); tetraceno sólido anaranjado (Merck Index vía drugfuture). Para λmáx del tetraceno se buscó en 5 páginas y no se encontró un valor citable: NO se pone número (la raya va «por el color»)."
+  - generic: "21"
+  - code: "- Lector débil (haiku, 2 agentes): contestó bien las 24 preguntas. Dudas atendidas: antienlace, h y c de E = h·c/λ, nube π y «solapar» (palabra nueva «nube»), sp² (se agregó «hibr» a 36, 38, 39), «coplanar» → «paralelo», los dos pares del O del fenol (nota AP), 171 vs 190 en dibujo y texto, «los dos siguen en el UV», niveles en gris = «no tiene», «sin banda (absorbancia casi cero)», números 3-2-1 del pizarrón, hexatrieno vs los tres polienos, círculo naranja = C compartido, nube vista desde arriba, sexteto."
+  - generic: "22"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · check_u7 0 ✘ · loss vs v129pub: 0 perdidos, 0 ids (2 svg no idénticos = los viejos de 38 y 39, guardados con class psOld en el registro). Página 15,21 MB (límite 16). CSS aparte NUEVO: css/piz-02875b40f5.css (publicado). Baseline: rev2/v130pub_step9n.html."
+  - generic: "23"
+  - code: "- Cadena: … v128 → step9n_pre39 → v129 (3er arg rev2/v129pub_step9n.html) → step9n_pre.html. Próximo: v130 (pre40)."
+  - generic: "24"
+  - code: "- PENDIENTE: (0) ANTES de sumar más pizarrones: sacar #reg-v* a un archivo aparte (la página quedó en 15,21 MB). (a) U2 ej. 40→44 (40 a/b/c azoicos; 41 lípidos + A = ε·c·b de FC p. 135; 42 clorofila; 43 c–g bifentrina; 44 mol/a/b/c carotenos y fitoeno); (b) volcar FC cap. 4 a teoría 13/15 y FC cap. 6 pp. 134–137 a teoría 12b (hoy el cap. 12b dice «capítulo no incluido en los archivos del proyecto; se cita por el índice»: ya no es cierto); (c) ubicar los PDF de Wade/Morrison."
+  - generic: "25"
+  - generic: "26"
+  - code: "## v130 (3/10) — Wade y Morrison vistos como imagen de página; se levantan lecturas probables · Version 124 (artifact131)"
+  - generic: "27"
+  - code: "- Pedido: «accedé desde donde estoy mandándote esta petición». Se pidió y se obtuvo `C:\\Users\\USUARIO\\Downloads` entera. HALLAZGO: los PDF partidos están SUELTOS en Descargas (no en subcarpeta): WADE_5ED_PARTE_01…08 (pag_1-161, 162-322, 323-482, 483-642, 643-802, 803-962, 963-1122, 1123-1282), MORRISON_BOYD_5ED_PARTE_01…07, y también FERNANDEZ_CIRELLI_Aprendiendo_Quimica_Organica_COMPLETO.pdf (57 MB), GUIA EDITADA 2026 JULIO.pdf, Apunte_integrado_PARTE_01/02. OJO: en esa carpeta hay muchos archivos personales ajenos al proyecto: usar sólo los PDF de la materia y no mencionar el resto."
+  - generic: "28"
+  - code: "- Staged en /mnt/user-data/uploads/Downloads/: WADE_5ED_PARTE_05, MORRISON PARTE_03, 04, 05, 06. Correspondencia de páginas: Morrison, libro = PDF completo − 28 (PARTE_04 pág. 67 = p. 687; PARTE_05 pág. 81 = p. 916; PARTE_06 pág. 119–120 = pp. 1169–1170, pág. 149–150 = pp. 1199–1200; PARTE_03 pág. 163 = p. 567). Wade PARTE_05: libro = pág. del archivo + 609 (pág. 57–62 = pp. 666–671)."
+  - generic: "29"
+  - code: "- Vistas como imagen: MB pp. 686–687, 916–917, 567, 1169–1170, 1199–1200; Wade p. 659 y pp. 664–671 (§ 15.13 completa). Todo lo citado coincide. Datos confirmados: Tabla 19.1 (−24; 34,6; 154; 66 + otros), Tabla 26.1 (metilamina Kb 4,5 × 10⁻⁴; trimetilamina 0,6 × 10⁻⁴, 91 g/100 g, p.e. 3 °C), § 35.11 (piridina Kb 2,3 × 10⁻⁹; pirrol 2,5 × 10⁻¹⁴), § 16.5 (β-caroteno 451 nm), Wade (171/217/258/290; 454 nm; 30–40 nm; A = εcl p. 669; ε 5 000–30 000 p. 670)."
+  - generic: "30"
+  - code: "- gen/v130.py: 5 reemplazos documentados (LP de la tablita de éteres; fuente del 33; LP del 451 nm en cap. 12b, texto y vistazo; cita de Wade en 36 y 38) + párrafo nuevo en ej. 34 paso 6 con los dos Kb. Los bloques viejos quedan en #reg-v130."
+  - generic: "31"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · check_u7 0 ✘ · loss vs v130pub: 0 perdidos, 0 ids. Página 15,22 MB. CSS sin cambio (piz-02875b40f5.css). Baseline: rev2/v131pub_step9n.html."
+  - generic: "32"
+  - code: "- Cadena: … v129 → step9n_pre40 → v130 → step9n_pre.html. Próximo: v131 (pre41)."
+  - generic: "33"
+  - code: "- PENDIENTE: (0) sacar #reg-v* a un archivo aparte ANTES de sumar pizarrones (15,22 de 16 MB). (a) U2 ej. 40→44, ahora con Wade § 15.13 y Lambert-Beer a mano; (b) leer Wade caps. 10, 14, 19, 20 (PARTE_03, 04, 06) y volcar FC caps. 4 y 6 a teoría (el COMPLETO de FC también está en Descargas)."
+  - generic: "34"
+  - generic: "35"
+  - code: "## (cerrado, ver v131) FUENTES Y PLAN de los ej. 40–44 (3/10, tras «primero ej. 40–44 bien hechos y después Wade caps. 10, 14, 19, 20; tomate todo el tiempo, nada genérico, no resumir ni omitir»)"
+  - generic: "36"
+  - code: "- HECHO, sin publicar todavía: gen/make_artifact.py ahora (a) quita atributos redundantes de los <svg class=\"pizSvg\"> (font-family/font-style/class=\"\"/opacity=\"1\"/text-anchor=\"start\"/stroke-linecap y «.0») → −1,23 MB, comparado píxel a píxel en 45 pizarrones (idénticos; tmp_tests/cmp.js, sitios :8801 = artifact131 y :8802 = artifact132, rev2/site2.sh ARTIFACT PUERTO); (b) saca los #reg-vNNN a `registros.html` (0,81 MB), con enlace desde #reg-aparte. Página 13,41 MB. AL PUBLICAR: files = css/piz-HASH.css + registros.html (root = artifactNNN). ART_SLIM=0 / ART_EXT_REG=0 lo desactivan."
+  - generic: "37"
+  - code: "- FUENTES 40–44 LEÍDAS (ledger):"
+  - generic: "38"
+  - code: · Guía 2024 pp. 16–17 vista a 170 y 400 dpi (scratchpad src/guia24-16.png, guia24-17.png, g17_clorofila/bifen/caroteno/fitoeno.png). PDF en /mnt/user-data/uploads/quim org usar/pdf4/ y la 2026 en uploads/Downloads/.
+  - generic: "39"
+  - code: "40: bencenoazofenol = Ph–N=N–C6H4–OH (para); bencenoazoresorcinol = Ph–N=N–C6H3(OH)2 con HO en orto y OH en para al azo; cada N con su par dibujado. 41: oleico CH3–(CH2)7–CH=CH–(CH2)7–COOH; parinárico (como lo imprime la guía) CH3(CH2)7–CH=CHCH=CHCH=CHCH=CHCH2–COOH; eleosteárico CH3(CH2)3–CH=CHCH=CHCH=CH(CH2)7–COOH; espectro A–λ con λ1 (bajo), λ2 (el más alto), λ3 (medio). 42: clorofila «a» con Mg, 2 N–Mg y 2 N→Mg, vinilo, etilo, 3 CH3 en anillos, anillo E dibujado «C» SIN =O (Morrison p. 1186 sí lo dibuja) y CH–COOCH3, cadena CH2–CH2–C(=O)–O–CH2–CH=C(CH3)–(CH2)3–CH(CH3)–(CH2)3–CH(CH3)–(CH2)3–CH(CH3)2. 43: bifenthrin = CF3–C(Cl)=CH–ciclopropano(gem-dimetilo)–C(=O)–O–CH2–anillo(2-metil-3-fenil). 44: caroteno = 9 C=C de cadena + 1 por anillo = 11 conjugados, 4 CH3 en la cadena; fitoeno DE LA GUÍA = 9 C=C: 1 aislado a la izq., 5 conjugados en el centro (la flecha marca ese tramo), 3 aislados a la derecha; extremo izquierdo saturado."
+  - generic: "40"
+  - code: "· video/31 (seminario «Absorción de Luz (Parte 2)») 12:03–18:47 completo; video/71 notas; md U2 § 1.2–1.4, § 4.3 (carvacrol: MISMA consigna que 43 c/d → C sp³ = el CH3; C sp² = un C del anillo; pregunta «orbital atómico vs molecular»), § 5.3, § 12.5–12.7; video/extra/4XOPT6CprgQ (teórico 21/08: 81:00–113:07 hibridación; «orbital molecular = lo mismo que un enlace» 87:08; σ 100:24; π 101:30) y JEyyZV4m8Ns. Ej. 7 de U2 (carvacrol) ya resuelto en la página: modelo para 43 c/d. NINGÚN video resuelve 43 ni 44 (son agregados de la guía 2024): se resuelven aplicando la teoría de la clase y los libros."
+  - generic: "41"
+  - code: "· Morrison como imagen: pp. 964–966 (§ 27.18 azocompuestos: «intensamente coloreadas», casi la mitad de los colorantes industriales; rojo para; anaranjado de metilo), p. 1185–1187 (clorofila a, «pigmento vegetal verde: catalizador de fotosíntesis», con C=O en el anillo E y C20H39O–), pp. 1243–1246 (§ 37.2 lípidos, glicéridos, oleico cis), p. 1257 (§ 38.1 fotosíntesis: CO2 + agua → glucosa, «necesita la catálisis por la materia colorante verde clorofila y requiere energía en forma de luz»)."
+  - generic: "42"
+  - code: "· Wade como imagen: pp. 1162–1165 (cap. 25: lípidos; Tabla 25.1 con ácido oleico p.f. 4 °C y «ácido eleoesteárico» 18 C con 3 dobles conjugados, p.f. 49 °C), pp. 1175–1179 (§ 25.8 terpenos; p. 1177: «Los carotenos, con 40 átomos de carbono, son tetraterpenos. Estos sistemas formados por dobles enlaces conjugados son los responsables de la intensa absorción π → π* en la región del visible»; β-caroteno λmáx = 454 nm, ε = 140 000; p. 1178 caroteno → 2 retinol), pp. 873–881 (cap. 19: § 19.18 acoplamiento diazo: «Los azocompuestos tienen dos anillos aromáticos sustituidos en conjugación con un grupo azo, que es un cromóforo fuerte»; Problema 19.25 (h) = el bencenoazoresorcinol de la guía; resumen de reacciones; § 19.19). Wade PARTE_08: libro = pág. archivo + 1089; PARTE_06: libro = pág. archivo + 769."
+  - generic: "43"
+  - code: "· Externo (para marcar [VERIFICACIÓN EXTERNA]): fitoeno C40H64, 3 dobles conjugados, λmáx 286 nm, incoloro; fitoflueno C40H62, 5 conjugados, 348 nm (Wikipedia); bifentrina C23H22ClF3O2, sólido ceroso blanco, 0,1 mg/L en agua, hidrofóbica (Wikipedia); ácido cis-parinárico = 9Z,11E,13E,15Z-octadecatetraenoico, C18H28O2, λmáx 292/305/319 nm; α-eleosteárico (éster metílico) 261/270/281 nm (Cayman Chemical)."
+  - generic: "44"
+  - code: "- PLAN DE PASOS (17 pizarrones; viejos: 40a 3, 40b 2, 40c 2, 41 5, 42 4, 43c 3, 43d 5, 43e 4, 43f 3, 43g 3, 44mol 5, 44a 3, 44b 4, 44c 3): moléculas con TODOS los átomos (probar C40 a una fila) + esqueleto como en la guía; 43 c/d siguiendo el carvacrol de la clase (CH3 del anillo; C del anillo que lo lleva)."
+  - generic: "45"
+  - generic: "46"
+  - generic: "47"
+  - code: "## v131 (3/10) — U2 ej. 40 (a, b, c), 41, 42, 43 (c–g) y 44 (mol, a, b, c) rehechos desde las fuentes · Version 126 (artifact133)"
+  - generic: "48"
+  - code: "- Pedido: «Primero hacé los ej. 40 a 44 de la U2, pero bien hechos, y después Wade caps. 10, 14, 19 y 20. Tomate todo el tiempo; nada genérico; no resumas, elimines, omitas ni pierdas info.»"
+  - generic: "49"
+  - code: "- 14 pizarrones nuevos (pasos viejos→nuevos): 40-a 3→7 · 40-b 2→4 · 40-c 2→5 · 41 5→7 · 42 4→7 · 43-c 3→6 · 43-d 5→7 · 43-e 4→6 · 43-f 3→5 · 43-g 3→4 · 44-mol 5→7 · 44-a 3→6 · 44-b 4→6 · 44-c 3→5. Ninguna respuesta cambia."
+  - generic: "50"
+  - code: "- Módulos nuevos: gen/u2_e4044_mol.py (azo, graso, bifentrina, caroteno, fitoeno(lo, hi) en tramos con «···», clorofila(cola, morrison) con Mg, flechas N→Mg, d['dob'], d['macro'], d['sp3']; esqueleto(); fórmulas contadas por programa: clorofila C55H72MgN4O5, bifentrina C23H22ClF3O2 con 51 átomos y 53 enlaces (46 C–C/C–H), caroteno C40H56, fitoeno de la guía C40H64);"
+  - generic: "51"
+  - code: "gen/u2_e4041_build.py (40 a/b/c y 41: marca_crom, lupa_azo, tabla_electrones, espectro3, fila_acido, glicerido, cubeta); gen/u2_e4244_build.py (42, 43 c–g, 44: resalta, num_dob, rect_ids, flujo, marcas_morrison, camino_pi, hib1, esfera_s, casillas, solape, angulo, bif_datos, mapa_hib, sp3_dibujo, tetra, sp2_lado, nube_pi, trigonal, polares, vaso, bif_pi, esq_en, car_esq, fit_esq, fit_atomos, datos44, mini_esq, tabla_cmp);"
+  - generic: "52"
+  - code: "gen/u2_textos_4044.py (p40a…p44c; helper TV = teórico del viernes 21/08, YouTube 4XOPT6CprgQ «Clase viernes 21/08/2026 parte 1 teórico»); gen/v131.py (PLAN de 14; glosario antes del primer <div class=\"guiaInc de cada ejercicio; registro #reg-v131)."
+  - generic: "53"
+  - code: "- gen/u2_lector.py: claves nuevas dativo, esq, hib1, s1, resal, sp3c, sp2c, solapa. gen/u2_glos.py: 14 palabras nuevas (azo, graso, satur, lambert, porfir, dativo, fotosint, esq, atmol, solap, geom, ester, piretr, carot) + EJ 40–44."
+  - generic: "54"
+  - code: "- Verificado como imagen en esta tanda: Wade p. 19 (§ 1.10B fórmula lineoangular; OJO: en PARTE_01 libro = pág. del archivo − 35), pp. 669–671 (Lambert-Beer A = εcl; Tabla 15.2; 30–40 nm por doble), pp. 873–874 (§ 19.18: «cromóforo fuerte»; Problema 19.25 h = bencenoazoresorcinol); Morrison p. 731 (ligantes, quelación, clorofila como ejemplo), p. 1186 (clorofila a con C=O en el anillo E y H3C en el anillo D), pp. 1187–1189 (pirrol; «unidad fundamental del sistema de la porfirina»), p. 1244 (oleico), p. 1257 (fotosíntesis). FC cap. 6: Lambert-Beer A = εcb en p. 135; «generalmente prohibidas» en p. 136; Tabla 3 y «análisis cuantitativo» en p. 137 (decatetraeno 273–310 nm)."
+  - generic: "55"
+  - code: "- CONFLICTO nuevo visible (42): clorofila de la guía (C sin O en el quinto anillo; anillo de abajo sin CH3; puente rotulado «CH») contra Morrison p. 1186 → se dibuja como Morrison, marcado en naranja punteado; la cuenta de átomos da la fórmula real. Los otros conflictos (40: 400 vs 450 nm; 44: fitoeno 5 vs 3 conjugados) siguen visibles, el del 44 ahora con 286 y 348 nm."
+  - generic: "56"
+  - code: "- 43 c/d: cambio de elección al modelo de la clase (carvacrol, § 4.3): CH3 del anillo y C del anillo que lo lleva (dobles del anillo A puestos como en la guía: (1,3,5)). La elección anterior (CH2 y C=O) queda nombrada como válida y en auditoría."
+  - generic: "57"
+  - code: "- Externo (marcado): Cayman Chemical (clorofila a: C55H72MgN4O5, λmáx 338/432/665 nm; parinárico y eleosteárico); Wikipedia (bifentrina 0,1 mg/L, sólido blanco; fitoeno 286 nm; fitoflueno C40H62 348 nm)."
+  - generic: "58"
+  - code: "- Citas: sólo entre « » lo tomado de fuente escrita o de la transcripción automática del seminario (31); lo del teórico del viernes (notas por minuto) va sin comillas con su minuto."
+  - generic: "59"
+  - code: "- Lector débil (haiku): ronda 1, 7 agentes (40; 41; 42; 43 c–d; 43 e–g; 44 mol–a; 44 b–c): todos contestaron bien la consigna. Dudas atendidas: «energía y λ van al revés» (40 a), niveles llenos/vacíos y la cruz (40 c), C=O del COOH y zigzag de los ochos (41), raya vs flecha N–Mg, «baja intensidad», cromóforo/éster en el glosario (42), dibujo del sp³ con los 4 lóbulos separados y rótulos p/sp² en el sp² (43), «p puro», por qué un doble saca 2 H, 2 e⁻ π por doble, «fitoeno de la guía (5)» vs «real (3)» rotulados en todas las rectas (44). Ronda 2 (43 c–d, 44 b–c y control visual de 27 tiras): conteos correctos, sin textos encimados."
+  - generic: "60"
+  - code: "- make_artifact.py con ART_SLIM y ART_EXT_REG PUBLICADO por primera vez: página 14,59 MB (antes 15,22 con 14 pizarrones menos); registros.html 0,91 MB (43 registros, se publica como archivo aparte: files=[css/piz-2ade108c4c.css, registros.html]); en la página queda #reg-aparte con el enlace. Imágenes: sin cambios (455)."
+  - generic: "61"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · check_u7 0 ✘ · loss vs v131pub (Version 124): 0 perdidos, 0 ids, 14 svg no idénticos (los viejos, guardados con psOld en el registro). Retoque de una frase (fitoflueno C40H62) → Version 126; la frase anterior quedó en #reg-v131. Baseline: rev2/v133pub_step9n.html."
+  - generic: "62"
+  - code: "- Cadena: … v129 → pre40 → v130 → pre41 → v131 → step9n_pre.html (rev2/tail_u2.sh y build2.sh actualizados). Próximo: v132 (v131 pasa a escribir step9n_pre42.html)."
+  - generic: "63"
+  - code: "- MARGEN: 16 − 14,59 = 1,41 MB. Los 14 pizarrones nuevos pesan ≈ 1,2 MB (moléculas enteras repetidas en cada paso). Si hace falta: deduplicar con <defs>/<use> o sacar más CSS."
+  - generic: "64"
+  - code: "- PENDIENTE: (a) leer Wade caps. 10 (PARTE_03), 14 (PARTE_04), 19 y 20 (PARTE_06) página por página como imagen, con ledger de cobertura, y cruzarlos con el apunte (staged: PARTE_01, 03, 04, 05, 06, 08); (b) volcar FC caps. 4 y 6 a teoría (cap. 12b todavía dice «capítulo no incluido»); (c) U3–U7: sólo cuando el alumno mande material."
+  - generic: "65"
+  - generic: "66"
+  - code: "## v132 (3/10) — Cruce con el Wade, caps. 10, 14, 19 y 20 · PUBLICADO: Version 127 (artifact134)"
+  - generic: "67"
+  - code: "- Pedido: «…y después \"Capítulos 10, 14, 19 y 20 de Wade (alcoholes, éteres, aminas, ácidos): todavía sin leer; ahora ya puedo\"» (segunda parte del pedido de los ej. 40–44)."
+  - generic: "68"
+  - code: "- Universo cerrado: 182 páginas como imagen, nombradas por página del libro: wade2/c10 (405–444), c14 (600–637), c19 (836–899), c20 (900–939). PDF: WADE_5ED_PARTE_03 (cap. 10), 04+05 (cap. 14), 06+07 (caps. 19–20), 08 (soluciones A3–A6, file pp. 133–136)."
+  - generic: "69"
+  - code: "- 9 lectores (ledgers wade2/led_*.md, 182 entradas «## p. N») → 270 hallazgos (165 aporte, 43 conflicto, 42 confirmación, 20 actualización). 9 verificadores (wade2/ver_*.json): 212 ok / 58 corregir / 0 descartar."
+  - generic: "70"
+  - code: "- Integración (wade2/edit.py → final.json + fus.json): 15 notas fusionadas en 13 (control por programa de cifras y citas; 3 diferencias deliberadas), 3 repartidas (heterociclo, cap. 39), respuestas del final del libro agregadas (10.9, 10.10, 10.23, 10.34, 14.34, 19.1, 19.17, 19.25 h, 20.16, 20.45) y «tampoco en las soluciones» (10.6, 10.27, 10.31, 10.35, 10.42, 10.48); 5 notas nuevas WS-01…05 (problemas 10.5, 10.7, 19.6, 20.3, 10.11 con respuesta); aclaraciones del lector débil (haiku) en 17 lugares. Tablas 10.3, 14.1, 14.2, 19.1, 19.3, 20.3 y 20.4 vueltas a mirar por mí sobre la imagen: coinciden. Total en el apunte: 260 notas."
+  - generic: "71"
+  - code: "- gen/v132.py: inserta por ancla (15 anclas movidas por los verificadores, ANCHOR_OVR; orden AFTER). Reglas: nunca dentro de lista/tabla/figura/transcripción de la guía/glosario; después de las notas que ya estaban; en ejercicios con pizarrón → recuadro `.wadeEj` debajo del pizarrón (22 recuadros, cada nota con chip «Paso N · título») + aviso `.wadePtr` de una línea en el paso (34). Clase de las notas nuevas: `lectNota … wadeN wd2`. Textos de estado: fila Wade de «Qué está revisado», notas W0-AF-b/W0-CF-b, reg-wade, reg-labs-tp. Registro `#reg-v132` (cobertura, tabla de 275, fusiones con originales, retoques, 58 corregidas con lo comprobado, anclas, erratas del libro, ledgers completos)."
+  - generic: "72"
+  - code: "- Cadena: v131 → step9n_pre42.html; v132 → step9n_pre.html (rev2/tail_u2.sh y rev2/build2.sh). gen/make_artifact.py: registros.html ya no desborda en el teléfono (svg max-width, overflow-x en cada registro)."
+  - generic: "73"
+  - code: "- Controles: verify9b ERRORS [] · audit_tp1 faltan 0 · loss.py contra rev2/v133pub 0 perdidos, 0 ids · check_u7 0 ✘. Página 14,89 MB (margen 1,11 MB); registros.html 1,66 MB; 455 imágenes sin cambios; css/piz-2ade108c4c.css."
+  - generic: "74"
+  - code: "- Línea base nueva: rev2/v134pub_step9n.html. Vista local: bash rev2/site2.sh artifact134 8804."
+  - generic: "75"
+  - code: "- Sigue sin leer del Wade: cap. 7 desde p. 290, caps. 8, 9, 11–13, 15–18, 21, 22 y desde p. 1182 (sólo páginas sueltas). Pendientes de antes: Fernández Cirelli caps. 4 y 6 a la teoría; U3/U4/U5 sin material."
+  - generic: "76"
+  - code
+  - complementary "Panel de actividad de sesión":
+    - button "Progreso" [expanded]:
+      - generic: Progreso
+      - generic: 
+    - generic: 
+    - generic: "Task #25"
+    - button "Comentar este elemento":
+      - generic: 
+    - generic: "2"
+    - generic: Armando el inventario de páginas
+    - button "Comentar este elemento":
+      - generic: 
+    - generic: "3"
+    - generic: Leer las páginas pendientes del Wade (lectores con ledger)
+    - button "Comentar este elemento":
+      - generic: 
+    - generic: "4"
+    - generic: Verificar cada nota contra la imagen de la página
+    - button "Comentar este elemento":
+      - generic: 
+    - generic: "5"
+    - generic: "Soluciones del final del libro (A1–A7): pasar al apunte"
+    - button "Comentar este elemento":
+      - generic: 
+    - generic: "6"
+    - generic: Integrar notas, controlar, publicar y registrar
+    - button "Comentar este elemento":
+      - generic: 
+    - button "Salidas2" [expanded]:
+      - generic: Salidas2
+      - generic: 
+    - button "CHECKPOINT_v97_U2_ej8_ej9_flechas_2026-10-02.md Quimica organica":
+      - generic: 
+      - generic: CHECKPOINT_v97_U2_ej8_ej9_flechas_2026-10-02.md
+      - generic "Quimica organica":
+        - generic: 
+    - button "Apunte de Química Orgánica Artefacto":
+      - generic: 
+      - generic: Apunte de Química Orgánica
+      - generic: Artefacto
+    - button "Contexto" [expanded]:
+      - generic: Contexto
+      - generic: 
+    - group "5 carpetas y archivos":
+      - button "quim org usar" [disabled]:
+        - generic: 
+      - button "org carp" [disabled]:
+        - generic: 
+      - button "fue claude" [disabled]:
+        - generic: 
+      - button "Nueva carpeta" [disabled]:
+        - generic: 
+      - button "Downloads" [disabled]:
+        - generic: 
+        - generic: Downloads
+    - generic: Habilidades
+    - generic: task-observer
+- status
+- status
+- region "Notifications"
