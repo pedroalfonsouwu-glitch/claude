@@ -1,0 +1,42 @@
+[
+  {
+    "comando": 0,
+    "destino_historico": "part_03.py",
+    "copia_recuperada": "03_wade3_recuperado/fragmentos_historicos/cmd000_part_03.py",
+    "bytes": 15887,
+    "sha256": "a4fe77b8579ac896db0a10e0ccc7e201f0efbdce10482a876854c6347354298c",
+    "cuerpo_literal": true,
+    "ejecutado_en_recuperacion": false,
+    "sintaxis_python_valida": true
+  },
+  {
+    "comando": 1,
+    "destino_historico": "/tmp/claude-0/-home-claude/e0ede9ab-4c8a-58f1-b558-42f4822c9fb2/scratchpad/vW21b/merge.py",
+    "copia_recuperada": "03_wade3_recuperado/fragmentos_historicos/cmd001_merge.py",
+    "bytes": 1045,
+    "sha256": "9369afcc892154f638b48d4e61db1afdf2ad3bf8e1b5964b0bb0836080257673",
+    "cuerpo_literal": true,
+    "ejecutado_en_recuperacion": false,
+    "sintaxis_python_valida": true
+  },
+  {
+    "comando": 5,
+    "destino_historico": "part3.py",
+    "copia_recuperada": "03_wade3_recuperado/fragmentos_historicos/cmd005_part3.py",
+    "bytes": 8744,
+    "sha256": "9ff500a4e399e5380c4aad6bd70b4ed76f3bc06ed311d4c5b0b168eeeca459d0",
+    "cuerpo_literal": true,
+    "ejecutado_en_recuperacion": false,
+    "sintaxis_python_valida": true
+  },
+  {
+    "comando": 6,
+    "destino_historico": "frag/e.py",
+    "copia_recuperada": "03_wade3_recuperado/fragmentos_historicos/cmd006_e.py",
+    "bytes": 10376,
+    "sha256": "dfd1aca08dcf6a92084fd4cc1bcd6e978ff07dcd3f0774d6bfee808fddaaad0b",
+    "cuerpo_literal": true,
+    "ejecutado_en_recuperacion": false,
+    "sintaxis_python_valida": true
+  }
+]
