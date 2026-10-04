@@ -1,0 +1,7 @@
+Salida
+
+Exit code 1
+Sun Oct  4 02:58:27 UTC 2026
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: "out_['W07', 7, 290, 313, 'A2', 'ap-cap34, ap-cap29, ap-cap18, ap-cap37, ap-cap36'].json"

@@ -1,0 +1,12 @@
+Salida
+
+Sat Oct  3 22:32:32 UTC 2026
+457
+{"cap": 9, "prob": "9.31", "pag": "A3", "respuesta": "[RESUMEN, NO ES COPIA TEXTUAL] Una frase: se forma la sal de metal pesado del alquino terminal.", "dudas": ""}
+{"cap": 9, "prob": "9.38", "pag": "A3", "respuesta": "[RESUMEN, NO ES COPIA TEXTUAL] Descripción de una estructura: un ciclohexadieno con una cadena lateral con triple y doble enlace (cis o trans).", "dudas": ""}
+{"cap": 10, "prob": "10.1", "pag": "A3", "respuesta": "[RESUMEN, NO ES COPIA TEXTUAL] Incisos (a)–(f): seis nombres sistemáticos de alcoholes.", "dudas": "En (b) los dos localizadores se leen iguales: [LECTURA PROBABLE: «5-bromo-5-heptanol»]; si la lectura es correcta, es una errata del libro (un mismo carbono no puede llevar así los dos sustituyentes en ese nombre). Revisado con ampliación ×6."}
+{"cap": 18, "prob": "18.42", "pag": "A5", "respuesta": "[RESUMEN, NO ES COPIA TEXTUAL] Dos longitudes de onda (la segunda, un intervalo).", "dudas": ""}
+{"cap": 18, "prob": "18.43", "pag": "A5", "respuesta": "[RESUMEN, NO ES COPIA TEXTUAL] Un nombre.", "dudas": ""}
+Counter({False: 326, True: 131})
+[('', 326), ('Entre (a) y (b) hay dos puntos.', 7), ('El punto del número no está en negrita.', 4), ('En (b) hay un punto donde corresponde un', 3), ('Entre (b) y (c) hay dos puntos.', 3), ('Sin punto final.', 3)]
+hallazgos 597 ver: ['ver_W07.json', 'ver_W08a.json', 'ver_W08b.json', 'ver_W08c.json', 'ver_W09a.json', 'ver_W09b.json']

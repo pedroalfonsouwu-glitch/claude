@@ -1,0 +1,39 @@
+Salida
+
+15
+W13a 9 Counter({'ok': 6, 'corregir': 3}) 1 0
+W13b 8 Counter({'corregir': 5, 'ok': 3}) 4 3
+W13c 9 Counter({'ok': 6, 'corregir': 3}) 2 2
+-rw-r--r-- 1 root root 24351 Oct  3 22:46 ver_W13a.json
+-rw-r--r-- 1 root root 33502 Oct  3 22:57 ver_W13b.json
+-rw-r--r-- 1 root root 26935 Oct  3 22:58 ver_W13c.json
+A2_hdr.png
+A3_834.jpg
+A3_br.jpg
+A3_c8a.jpg
+A3_c8a.png
+A3_c8b.jpg
+A3_c8b.png
+A3_full.png
+A3end.jpg
+A4_0.png
+A4_1.png
+A4_c15.png
+A4_c15b.png
+A4_c16.png
+A4_full.png
+A4_hdr.png
+A4_tl.jpg
+A6_hdr.png
+W17c
+__pycache__
+a3_11.png
+a600_marg.png
+a600_txt.png
+a601_fig.png
+a601_tab.png
+a601_txt.png
+a602_fig.png
+a602_tab.png
+a602_txt.png
+a603_bot.png

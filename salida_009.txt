@@ -1,0 +1,53 @@
+Salida
+
+OK 19 {'ok': 15, 'corregir': 4, 'descartar': 0}
+anclas falsas: ['W18c-06'] alcance mal: []
+
+##### W18c-03 1643 → 1826
+   insert | − '' | + '[ADICIÓN PEDAGÓGICA: un nucleósido es un azúcar unido a una base nitrogenada, y la base es ese anillo «heterocíclico»: un anillo que tiene átomos que no son carbono, acá nitrógenos.] '
+
+##### W18c-06 2167 → 2429
+   insert | − '' | + ' o terc-butóxido de potasio'
+   insert | − '' | + ', con KOH'
+   insert | − '' | + ', con terc-butóxido de potasio'
+   insert | − '' | + ' (cetal es el nombre común del acetal de una cetona; etilénico, porque el alcohol que lo forma es el etilenglicol)'
+   replace | − 'L' | + 'El libro aclar'
+   replace | − 'r' | + 'qu'
+   delete | − 'ducción' | + ''
+   replace | − 'de' | + 'la'
+   insert | − '' | + '«'
+   insert | − '' | + 'e suele utilizar» c'
+   replace | − 'bre' | + 'n las'
+   replace | − 'e' | + '(la'
+   delete | − 'tá' | + ''
+   insert | − '' | + 'llama acilb'
+   insert | − '' | + 'cenos),'
+   replace | − 'l' | + 'p'
+   delete | − ' ot' | + ''
+   insert | − '' | + 'pasarlas a alquilbence'
+   replace | − 'ta' | + 's,'
+   replace | − 'd' | + 'y r'
+   replace | − 'l l' | + 'm'
+   delete | − 'bro de es' | + ''
+   delete | − 'párr' | + ''
+   replace | − 'fo' | + ' su Sección 17.11B'
+   delete | − 'p' | + ''
+   delete | − '–821' | + ''
+   insert | − '' | + ', p. 824; Glosario'
+
+##### W18c-07 2318 → 2477
+   insert | − '' | + ','
+   delete | − 'mpieza' | + ''
+   delete | − ' igual, con' | + ''
+   replace | − 's' | + 'termina unid'
+   delete | − 'bre' | + ''
+   replace | − 'e' | + 'a'
+   insert | − '' | + ' del carbonilo'
+   insert | − '' | + ', a veces con un ácido que ayuda y a veces seguido de la pérdida de agua'
+   insert | − '' | + 'a excepción es la variante con H₂ y níquel de la (2), que es una hidrogenación. L'
+
+##### W18c-17 1286 → 1530
+   insert | − '' | + '. Es la misma ecuación de la otra nota del libro de este bloque, la de su capítulo de azúcares; allá los hidróxidos están escritos repartidos (2 Ag(NH₃)₂⁺ ⁻OH + ⁻OH) y acá juntos: son tres en los dos casos'
+   insert | − '' | + '; la misma ecuación en § 23.10, p. 1074'
+-rw-r--r-- 1 root root 46307 Oct  4 03:16 /home/claude/work/wade3/ver_W18c.json
+-rw-r--r--  1 root root  57542 23:12 ver_W15a.json

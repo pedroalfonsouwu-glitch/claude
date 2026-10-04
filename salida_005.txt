@@ -1,0 +1,4 @@
+Salida
+
+guardadas 19 de 19
+Counter({'ok': 15, 'corregir': 4})

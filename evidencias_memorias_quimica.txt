@@ -1,0 +1,312 @@
+- dialog "Configuración" [active]:
+  - navigation "Configuración":
+    - heading "Configuración" [level=2]
+    - button:
+      - generic: 
+      - textbox "Buscar en ajustes":
+        - /placeholder: Buscar
+    - generic: Configuración
+    - list "Configuración":
+      - button "General":
+        - generic: 
+        - generic: General
+      - button "Cuenta":
+        - generic: 
+        - generic: Cuenta
+      - button "Privacidad":
+        - generic: 
+        - generic: Privacidad
+      - button "Facturación":
+        - generic: 
+        - generic: Facturación
+      - button "Uso":
+        - generic: 
+        - generic: Uso
+      - button "Capacidades":
+        - generic: 
+        - generic: Capacidades
+      - button "Memoria":
+        - generic: 
+        - generic: Memoria
+      - button "Sistemas de diseño":
+        - generic: 
+        - generic: Sistemas de diseño
+      - button "Reflexión":
+        - generic: Reflexión
+      - button "Tiempo y concentración":
+        - generic: 
+        - generic: Tiempo y concentración
+      - button "Claude Code":
+        - generic: 
+        - generic: Claude Code
+      - button "Cowork":
+        - generic: 
+        - generic: Cowork
+      - button "Claude in Chrome":
+        - generic: 
+        - generic: Claude in Chrome
+    - generic: Personalización
+    - list "Personalización":
+      - button "Skills":
+        - generic: 
+        - generic: Skills
+      - button "Conectores":
+        - generic: 
+        - generic: Conectores
+      - button "Plugins":
+        - generic: 
+        - generic: Plugins
+  - button "Cerrar":
+    - generic: 
+  - button "Memoria":
+    - generic: 
+    - text: Memoria
+  - heading "Apunte Maestro" [level=2]
+  - button "Eliminar":
+    - generic: Eliminar
+  - generic: Proyecto
+  - link "Quimica organica":
+    - /url: /project/01a067d0-f1e2-70ec-9f4e-7c31e8c32994
+  - generic: Última actualización
+  - generic: 2 oct 2026
+  - generic: Resumen
+  - paragraph: Purpose, current state, and working structure of the Organic Chemistry master study guide project (all chapters 0–15 drafted)
+  - generic: Detalles
+  - list:
+    - listitem: Pedro is a university student in an Organic Chemistry course at the Facultad de Ciencias Agropecuarias
+    - listitem: The project is to build a comprehensive, rigorously sourced master study guide ("apunte maestro") in Spanish
+    - listitem: All work is in Spanish, with technical chemistry terminology in Spanish
+    - listitem: "Pedro functions as project director: he sets standards and enforces corrections throughout"
+    - listitem: The project is academically high-stakes and methodologically demanding
+  - heading "Bibliography" [level=2]
+  - list:
+    - listitem: "Primary bibliography: Fernández Cirelli (cap. 1) and Wade 5th ed. (caps. 1–2)"
+    - listitem: The Morrison/Boyd Study Guide is supplementary only and is never counted as a primary source
+    - listitem: "Missing core source throughout the project: the Morrison and Boyd main text, chapter 1 — still to be acquired"
+    - listitem: "Source materials: 8 course files (PDFs, ZIPs containing JPEGs and TXT)"
+  - heading "Current state (V8 — verify before relying on it)" [level=2]
+  - list:
+    - listitem: V8 is the most current verified state
+    - listitem: "V8 metrics: 218 atomic claims; 125/125 items; 11/11 NOT_APPLICABLE items preserved; 82 items with primary bibliography support"
+    - listitem: All 15 mandatory autochecks are at zero in V8
+    - listitem: All chapters 0–15 plus three annexes are now written, with 17 original figures (book and slide figures are never copied)
+  - heading "Artifacts and tooling" [level=2]
+  - list:
+    - listitem: "Authoritative ledger artifacts maintained: item ledger, conflict ledger, claim ledger, chapter matrix, atomic claim ledger, page-item evidence ledger, and others"
+    - listitem: Artifacts are packaged in versioned ZIPs with SHA-256 hash verification
+    - listitem: "Set equality is checked across packages: ZIP SET = MANIFEST SET = INVENTORY SET"
+    - listitem: "Artifact system: interconnected CSV ledgers, versioned ZIP packages, SHA-256 hashing, manifest/inventory set equality checks"
+  - heading "Approach and working patterns" [level=2]
+  - list:
+    - listitem: "Strict phase/version sequencing: Phase 1B → 1C → 1D → 2A → reconciliation rounds → V3–V8"
+    - listitem: Each version rebases on the prior version rather than rebuilding from scratch
+    - listitem: "Dependency validation is enforced by a term registry with regex patterns and a per-occurrence ledger: no concept may appear before it is taught"
+    - listitem: Pedagogical ordering of chapters is a core structural principle
+    - listitem: Pedro runs active correction cycles — catching false promotions, lineage regressions, range expansion, and misreported figures in Claude's outputs, and requiring explicit fixes before proceeding
+  - heading "Figure conventions (HTML apunte)" [level=2]
+  - list:
+    - listitem: Hybrid orbitals (sp³, sp², sp) must be drawn as a small orange "cabecita" + blue "cuerpo" (teardrop, point at the nucleus), never as ovals/"orejas"; only pure p orbitals are drawn as "orejitas"
+    - listitem: "Molecule figures (eteno, etino): white skeleton lines, each hybrid drawn on its skeleton line (head at C, body toward the other atom), electrons drawn inside the hybrids; pure p orbitals carry 1 e⁻ each"
+    - listitem: π bonds are drawn joining the tips of the p orbitals above and below everything (π label outside), never as lines next to the σ bond axis
+  - heading "How Pedro wants to study (stated 2026-09-26)" [level=2]
+  - list:
+    - listitem: Reading long text does not engage him; he wants the chemistry "desarmada" and drawn by parts — the same molecule shown from several points of view (orbitals, forces/red arrows, where the electrons move), with the reason for every arrow, like his own handwritten tablet notes
+    - listitem: He keeps his own handwritten notes for U1–U2 (PDF "U1 y U2") and cleaned transcripts of what the professor said (unidad_1_limpio.md, unidad_2_limpio.md); he says the professor gave him the materials, so no copyright concern
+    - listitem: The "limpio" md transcripts (U1–U6) were made in another chat from the audio-only class videos on his own channel (animal/monkey background, no whiteboard); the whiteboard/presentation videos are the other (virtual) professor's and look poor
+    - listitem: "Plan: he will redraw the whiteboard parts of all videos by hand into a PDF, for Claude to later regenerate as nicer drawings"
+    - listitem: Guide exercise statements are to be cut from the guide PDF and pasted as page crops, not retyped; he wants exercises reachable per unit (choosing a unit then "Ejercicios" shows only that unit's exercises)
+    - listitem: In the viewer where he opens the HTML, the JavaScript-dependent buttons (main menu, unit selection) did not work — the deliverable's navigation must work without JavaScript
+    - listitem: The course's exercise guide has a 2026 edition ("GUIA EDITADA 2026 JULIO", received 30/9); he was told only some exercises changed from the 2024 edition
+    - listitem: The 2024 guide is the principal reference whose structure the apunte follows; don't relabel the document as "guía 2026" — note "coincide con la versión 2026" where identical
+    - listitem: Lab practicals (TP 1, TP 2…) go together — theory plus exercises — under the "Ejercicios" section (own buttons, in TP order), not split off into the theory part
+    - listitem: "He has photos of the original Laboratorio 1 handout (consigna), sent 1/10/2026; for TP1 the source hierarchy is: consigna Lab 1 → guía 2024 → lab class/teacher → theory classes → previous apunte/HTML → pedagogical additions; the old rule «no lab-specific guide available» is superseded but kept in history"
+    - listitem: "Solvent recovery/distillation is not in the Lab 1 consigna: label it as a complement from the lab class, never as «Actividad D de la consigna»"
+    - listitem: "TP 2 has two experiments: 1 «flores» (the vegetable is red cabbage/repollo morado — petals were just an example; acid = diluted vinegar, base = potassium bicarbonate) and 2 almidón"
+    - listitem: Page 5 of the lab handout belongs to TP 1 (not TP 2); he has no more lab material than what he already sent ("el profe me dio lo que ya te di"), plus his own clean copies of the molecules the professor drew, meant to be redrawn with the molecule-building tool used for the exercises
+    - listitem: Said on 2/10/2026 that the guide being solved is the current 2026 edition, not 2024 ("estamos resolviendo 2026, no 2024") — in tension with the earlier "2024 is the principal reference / don't relabel" line; which label the page should carry is still undecided
+    - listitem: "Working order: he is correcting the Unidad 2 exercise resolutions from exercise 8 onward to the end; only after that is finished will he send the material for Unidades 3, 4 and 5 — don't resolve those units' exercises before he sends it"
+  - status
+  - textbox "Mensaje":
+    - /placeholder: Haz listas de menos de cinco elementos
+  - button "Enviar mensaje" [disabled]:
+    - generic: 
+- status
+- status
+- region "Notifications"
+
+- dialog "Configuración" [active]:
+  - navigation "Configuración":
+    - heading "Configuración" [level=2]
+    - button:
+      - generic: 
+      - textbox "Buscar en ajustes":
+        - /placeholder: Buscar
+    - generic: Configuración
+    - list "Configuración":
+      - button "General":
+        - generic: 
+        - generic: General
+      - button "Cuenta":
+        - generic: 
+        - generic: Cuenta
+      - button "Privacidad":
+        - generic: 
+        - generic: Privacidad
+      - button "Facturación":
+        - generic: 
+        - generic: Facturación
+      - button "Uso":
+        - generic: 
+        - generic: Uso
+      - button "Capacidades":
+        - generic: 
+        - generic: Capacidades
+      - button "Memoria":
+        - generic: 
+        - generic: Memoria
+      - button "Sistemas de diseño":
+        - generic: 
+        - generic: Sistemas de diseño
+      - button "Reflexión":
+        - generic: Reflexión
+      - button "Tiempo y concentración":
+        - generic: 
+        - generic: Tiempo y concentración
+      - button "Claude Code":
+        - generic: 
+        - generic: Claude Code
+      - button "Cowork":
+        - generic: 
+        - generic: Cowork
+      - button "Claude in Chrome":
+        - generic: 
+        - generic: Claude in Chrome
+    - generic: Personalización
+    - list "Personalización":
+      - button "Skills":
+        - generic: 
+        - generic: Skills
+      - button "Conectores":
+        - generic: 
+        - generic: Conectores
+      - button "Plugins":
+        - generic: 
+        - generic: Plugins
+  - button "Cerrar":
+    - generic: 
+  - button "Memoria":
+    - generic: 
+    - text: Memoria
+  - heading "Verification Rules" [level=2]
+  - button "Eliminar":
+    - generic: Eliminar
+  - generic: Proyecto
+  - link "Quimica organica":
+    - /url: /project/01a067d0-f1e2-70ec-9f4e-7c31e8c32994
+  - generic: Última actualización
+  - generic: 14 sept 2026
+  - generic: Resumen
+  - paragraph: Hard-won methodological rules governing evidence, verification, and version lineage — enforced after errors were caught
+  - generic: Detalles
+  - list:
+    - listitem: "Numeric verification: nearest-number matching is prohibited — verification requires same species + property + magnitude + unit/valid conversion + context, simultaneously"
+    - listitem: "Page-exact evidence: bibliographic entries must be page-exact, never range-expanded"
+    - listitem: Multi-page range expansion was the source of 42 of 84 false positives identified in earlier versions
+    - listitem: "Directness and coverage are independent axes in the master decision table: DIRECT/CORROBORATIVE/INFERENTIAL_FRAMEWORK is separate from FULL_ITEM/PARTIAL_ITEM"
+    - listitem: "ZERO-LOSS lineage: all claims must maintain unbroken lineage across versions"
+    - listitem: Rebuilding from scratch (as occurred in V4) rather than rebasing is a prohibited regression
+    - listitem: The 11 NOT_APPLICABLE items must be preserved across all versions without exception
+    - listitem: The Morrison/Boyd Study Guide is always supplementary and never elevates to primary source status
+    - listitem: Figures derive from closed CSVs only — intermediate computation states must never be reported as final figures
+    - listitem: Autocheck REPORT_LEDGER_NUMERIC_MISMATCH enforces the closed-CSV figures rule
+    - listitem: Items without bibliographic backing are flagged NO_SUPPORT rather than carried without evidence — e.g. C38, C63, C83-A1b, C87-A1b, C68-A2b
+  - status
+  - textbox "Mensaje":
+    - /placeholder: Haz listas de menos de cinco elementos
+  - button "Enviar mensaje" [disabled]:
+    - generic: 
+- status
+- status
+- region "Notifications"
+
+- dialog "Configuración" [active]:
+  - navigation "Configuración":
+    - heading "Configuración" [level=2]
+    - button:
+      - generic: 
+      - textbox "Buscar en ajustes":
+        - /placeholder: Buscar
+    - generic: Configuración
+    - list "Configuración":
+      - button "General":
+        - generic: 
+        - generic: General
+      - button "Cuenta":
+        - generic: 
+        - generic: Cuenta
+      - button "Privacidad":
+        - generic: 
+        - generic: Privacidad
+      - button "Facturación":
+        - generic: 
+        - generic: Facturación
+      - button "Uso":
+        - generic: 
+        - generic: Uso
+      - button "Capacidades":
+        - generic: 
+        - generic: Capacidades
+      - button "Memoria":
+        - generic: 
+        - generic: Memoria
+      - button "Sistemas de diseño":
+        - generic: 
+        - generic: Sistemas de diseño
+      - button "Reflexión":
+        - generic: Reflexión
+      - button "Tiempo y concentración":
+        - generic: 
+        - generic: Tiempo y concentración
+      - button "Claude Code":
+        - generic: 
+        - generic: Claude Code
+      - button "Cowork":
+        - generic: 
+        - generic: Cowork
+      - button "Claude in Chrome":
+        - generic: 
+        - generic: Claude in Chrome
+    - generic: Personalización
+    - list "Personalización":
+      - button "Skills":
+        - generic: 
+        - generic: Skills
+      - button "Conectores":
+        - generic: 
+        - generic: Conectores
+      - button "Plugins":
+        - generic: 
+        - generic: Plugins
+  - button "Cerrar":
+    - generic: 
+  - button "Memoria":
+    - generic: 
+    - text: Memoria
+  - heading "Quimica organica" [level=2]
+  - button "Eliminar":
+    - generic: Eliminar
+  - generic: Proyecto
+  - link "Quimica organica":
+    - /url: /project/01a067d0-f1e2-70ec-9f4e-7c31e8c32994
+  - generic: Última actualización
+  - generic: 14 sept 2026
+  - generic: Resumen
+  - paragraph: Quimica organica — Building a rigorously sourced Spanish master study guide for a university Organic Chemistry course.
+  - status
+  - textbox "Mensaje":
+    - /placeholder: Mi planta se llama Gerald
+  - button "Enviar mensaje" [disabled]:
+    - generic: 
+- status
+- status
+- region "Notifications"

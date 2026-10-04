@@ -1,0 +1,25 @@
+Salida
+
+20 True
+FLAG W21b-03 False True ['Alcance: la nota trata de reactivos de Grignard y organolíticos (reactivos de laboratorio de nombre propio, que la cátedra no pide y que el cuerpo del apunte no nombra: sólo aparecen en notas de libros). Corresponde «extra». El texto no necesita cambios.']
+== W21b-10 1320 → 1569
+   insert | - '' | + 'n el escaneo e'
+   replace | - 'no se distingue en la imagen' | + 'casi no se ve'
+   insert | - '' | + 'el libro llama enol a la forma R–C(OH)=N–H, con un –OH sobre un carbono de doble enlace, y enolato al anión que queda cuando ese –OH pierde su H. En el mismo recuadro, el paso anterior es ése: «tautómero: enol» + HO⁻ ⇌ enolato.] [ADICIÓN PEDAGÓGICA: '
+== W21b-17 943 → 1034
+   replace | - 'al del formilo; el li' | + 'so'
+   replace | - 'o' | + 'e todo al del formilo: el libro dice que este anhídrido «reacciona principalmente a través del grupo formilo», y'
+   replace | - '«L' | + 'l'
+   replace | - ', donante de electrones»' | + ' y donante de electrones'
+== W21b-19 1619 → 1809
+   insert | - '' | + 'vale lo que ya dice la otra nota de esta pregunta: partir de un cloruro de ácido y usar un '
+   replace | - 'ace falta partir de un cloruro de ' | + 'idruro m'
+   replace | - 'cido y usar un hidruro m' | + 's suave. Ac'
+   replace | - 's suave, el' | + ' el libro le pone nombre,'
+   insert | - '' | + ' y lo escribe'
+   insert | - '' | + ' (t-Bu es el terc-butilo, (CH₃)₃C–; es el mismo reactivo que en esa nota figura como LiAl[OC(CH₃)₃]₃H). Ejemplo'
+== W21b-20 1507 → 1719
+   replace | - 'n todas, el' | + 'l butironitrilo de (a) es CH₃CH₂CH₂–C≡N. La ε-caprolactama de (c) es una amida cíclica: un anillo de siete miembros con un N–H y un'
+   insert | - '' | + 'vecinos. En las amidas, de (b) a (e), el C=O '
+   insert | - '' | + '; en el nitrilo de (a), el –C≡N pasó a –CH₂–NH₂'
+-rw-r--r-- 1 root root 44960 Oct  4 03:16 /home/claude/work/wade3/ver_W21b.json
